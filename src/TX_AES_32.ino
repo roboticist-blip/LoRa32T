@@ -107,14 +107,7 @@ volatile int64_t tx_airtime_us = 0;
 volatile bool tx_done_flag = false;
 
 int64_t toa_prev_us = 0;
-
 int64_t t_end, t_start, encrypt_time_us;
-
-/* void IRAM_ATTR onTxDone() {
-  tx_end_us = esp_timer_get_time();
-  tx_airtime_us = tx_end_us - tx_start_us;
-  tx_done_flag = true;
-} */
 
 void onTxDone() {
   tx_end_us = esp_timer_get_time();
@@ -138,16 +131,13 @@ while (!LoRa.begin(LORA_FREQ)) {
   delay(1000); 
 }
 LoRa.onTxDone(onTxDone);
-/* pinMode(LORA_DIO0, INPUT);
-attachInterrupt(digitalPinToInterrupt(LORA_DIO0), onTxDone, RISING);
- */
 
 Serial.println("LoRa Initialized successfully!");
 
   LoRa.setSpreadingFactor(7);      // SF7 to SF12 (higher = longer range, slower)
-  LoRa.setSignalBandwidth(125E3);   // 125 kHz bandwidth
-  LoRa.setCodingRate4(5);           // 4/5 coding rate
-  LoRa.setTxPower(20);              // 20 dBm transmit power
+  LoRa.setSignalBandwidth(125E3);   // 125 kHz bandwidth, Fixed
+  LoRa.setCodingRate4(5);           // 4/5 coding rate, Fixed
+  LoRa.setTxPower(20);              // 20 dBm transmit power, Fixed
   
   Serial.println("Waiting for GPS fix...");
 
@@ -185,10 +175,10 @@ tx_start_us = esp_timer_get_time();
 
 LoRa.beginPacket();
 LoRa.print(data_to_send);
-LoRa.endPacket(true);   // ASYNC TX
+LoRa.endPacket(true); 
 
 while (!tx_done_flag) {
-  yield();   // important on ESP32
+  yield(); 
 }
 
 toa_prev_us = tx_airtime_us;
