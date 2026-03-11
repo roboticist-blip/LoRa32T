@@ -29,7 +29,7 @@ lib_deps = roboticist-blip/LoRa32T
 
 **Manual:** clone into your `libraries/` folder:
 ```bash
-git clone https://github.com/YOUR_USERNAME/LoRa32T
+[git clone https://github.com/YOUR_USERNAME/LoRa32T](https://github.com/roboticist-blip/LoRa32T.git)
 ```
 
 ## Dependencies
