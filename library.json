@@ -1,12 +1,24 @@
 {
   "name": "LoRa32T",
   "version": "1.0.0",
-  "description": "Deterministic cross-layer adaptive AES mode selection (GCM/CBC/CTR) for ESP32-based LoRa telemetry. Selects encryption mode based on SNR, PER, auth failure rate, and battery level.",
-  "keywords": ["lora", "aes", "encryption", "esp32", "lpwan", "iot", "security", "adaptive"],
+  "description": "Deterministic cross-layer adaptive AES mode selection (GCM/CBC/CTR) for ESP32-based LoRa telemetry.",
+  "keywords": [
+    "lora",
+    "telemetry",
+    "esp32",
+    "sx127x",
+    "aes",
+    "encryption",
+    "iot",
+    "lpwan",
+    "security",
+    "adaptive"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/LoRa32T.git"
+    "url": "https://github.com/roboticist-blip/LoRa32T.git"
   },
+  "homepage": "https://github.com/roboticist-blip/LoRa32T",
   "authors": [
     {
       "name": "Sumit Maheshwari",
@@ -15,13 +27,13 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/YOUR_USERNAME/LoRa32T",
-  "dependencies": {
-    "sandeepmistry/LoRa": "^0.8.0"
-  },
+  "dependencies": [
+    {
+      "owner": "sandeepmistry",
+      "name": "LoRa",
+      "version": "^0.8.0"
+    }
+  ],
   "frameworks": "arduino",
-  "platforms": "espressif32",
-  "export": {
-    "include": "src"
-  }
+  "platforms": "espressif32"
 }
