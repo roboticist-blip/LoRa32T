@@ -24,7 +24,7 @@ The receiver measures SNR, PER, and GCM authentication failure rate, packs them 
 
 **PlatformIO:** add to `platformio.ini`:
 ```ini
-lib_deps = YOUR_USERNAME/LoRa32T
+lib_deps = roboticist-blip/LoRa32T
 ```
 
 **Manual:** clone into your `libraries/` folder:
