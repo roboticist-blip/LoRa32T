@@ -3,10 +3,6 @@
 Deterministic cross-layer adaptive AES mode selection for **ESP32 + SX1278 LoRa** systems.
 
 Dynamically switches between **AES-GCM**, **AES-CBC**, and **AES-CTR** based on live channel conditions — without any machine learning.
-//Based on the paper:
-
-//> *"Cross-Layer Adaptive AES Mode Selection for ESP32-Based LoRa Telemetry Systems: A Deterministic Framework Under Link Variability"* — Maheshwari et al., 2026
-
 
 ## How it works
 
