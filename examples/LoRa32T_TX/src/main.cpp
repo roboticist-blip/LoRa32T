@@ -19,14 +19,13 @@
 #include <TinyGPS++.h>
 #include "LoRa32T.h"
 
-// ─── LoRa pin mapping ────────────────────────────────────────────────────────
+//LoRa pin mapping 
 #define LORA_SS   5
 #define LORA_RST  14
 #define LORA_DIO0 26
 #define LED_PIN   13
 static const uint32_t LED_BLINK_MS = 80;
 
-// Define the RX and TX pins for Serial 2
 #define RXD2 33
 #define TXD2 32
 
@@ -34,22 +33,24 @@ static const uint32_t LED_BLINK_MS = 80;
 TinyGPSPlus gps;
 HardwareSerial gpsSerial(2);
 
-// ─── Pre-shared AES-128 key (must match RX) ──────────────────────────────────
+//Pre-shared AES-128 key (must match RX) 
 static const uint8_t PSK[16] = {
     0xDE,0xAD,0xBE,0xEF, 0xCA,0xFE,0xBA,0xBE,
     0x01,0x23,0x45,0x67, 0x89,0xAB,0xCD,0xEF
 };
 
-// ─── Packet interval and ACK timeout ─────────────────────────────────────────
+// Packet interval and ACK timeout 
 #define TX_INTERVAL_MS   1000   // 1 Hz telemetry
 #define ACK_TIMEOUT_MS    600   // RX must reply within 600 ms
 
-// ─── Wire protocol: fixed-size packet layout ─────────────────────────────────
-// [ 1 mode | 16 iv | 16 tag | 4 seqNum | N ciphertext ]
-#define HEADER_SIZE  (1 + 16 + 16 + 4)   // 37 bytes
+// Wire protocol: mode-dependent packet layout (M-1) 
+// [ 1 mode | iv/nonce (16 for CBC, 12 for CTR/GCM) | tag (16, GCM only) | 4 seqNum | N ciphertext ]
+// Header size is no longer a compile-time constant: sec.frameHeaderSize(mode)
+// gives the real value, and that's what must go on the wire so airtime
+// actually differs between modes the way the cost model assumes.
 #define PAYLOAD_SIZE 64                   // fixed telemetry payload
 
-// ─── Telemetry data structure (64 bytes exactly) ─────────────────────────────
+// Telemetry data structure (64 bytes exactly)
 struct Telemetry {
     uint32_t seqNum;
     float    temperature;
@@ -61,7 +62,7 @@ struct Telemetry {
 };
 static_assert(sizeof(Telemetry) == PAYLOAD_SIZE, "Telemetry must be 64 bytes");
 
-// ─── Globals ──────────────────────────────────────────────────────────────────
+// Globals
 LoRa32T sec;
 uint32_t        seqNum   = 0;
 uint32_t        lastTxMs = 0;
@@ -83,8 +84,6 @@ void serviceGPS()
 #define BATT_ADC_PIN 15
 float readBatteryLevel()
 {
-    // LiPo: 3.0 V (empty) → 4.2 V (full).  ADC 12-bit, 3.3 V ref.
-    // Voltage divider: VBAT → 100k → ADC → 100k → GND  (×2 ratio)
     uint16_t raw  = analogRead(BATT_ADC_PIN);
     float vAdc    = raw * (3.3f / 4095.0f);
     float vBat    = vAdc * 2.0f;
@@ -132,7 +131,7 @@ void loop()
     if (millis() - lastTxMs < TX_INTERVAL_MS) return;
     lastTxMs = millis();
 
-// ── 1. Build telemetry ──────────────────────────────────────────────
+//1. Build telemetry
 Telemetry telem = {};
 telem.seqNum = ++seqNum;
 
@@ -148,18 +147,26 @@ if (gps.location.isValid()) {
 }
 telem.timestamp = (uint32_t)(millis() / 1000);
 
-    // ── 2. Update battery level and select mode ──────────────────────────
-    sec.updateLinkState(sec.linkState().snr,
-                        sec.linkState().perRadio,
-                        sec.linkState().perAuth,
-                        readBatteryLevel());
+    //2. Update battery level (direct reading, not link-EMA'd)
+    sec.setBatteryLevel(readBatteryLevel());
 
-    AESMode mode = sec.selectMode(SecurityPolicy::BestEffort);
+    // Occasionally force a GCM probe even while parked in CTR/CBC, so the
+    // controller has a live authentication-failure sample to decide
+    // whether it's safe to return to GCM (M-3). Mandatory/Conditional
+    // policy still governs whether the probe is actually permitted.
+    SecurityPolicy activePolicy = SecurityPolicy::BestEffort;
+    bool probing = sec.shouldProbeGCM();
 
-    // ── 3. Encrypt ───────────────────────────────────────────────────────
+    AESMode mode = sec.selectMode(activePolicy);
+    if (probing && mode != AESMode::GCM && sec.isModeAllowed(AESMode::GCM, activePolicy)) {
+        mode = AESMode::GCM;
+    }
+
+    // 3. Encrypt
     uint8_t     cipherBuf[PAYLOAD_SIZE + 16];  // +16 headroom for CBC padding
     CryptoFrame frame;
     frame.cipher = cipherBuf;
+    frame.mode   = static_cast<uint8_t>(mode);
 
     bool ok = sec.encrypt((const uint8_t*)&telem, sizeof(telem), seqNum, frame);
     if (!ok) {
@@ -167,12 +174,17 @@ telem.timestamp = (uint32_t)(millis() / 1000);
         return;
     }
 
-    // ── 4. Transmit packet ───────────────────────────────────────────────
-    // Header: [mode(1)] [iv(16)] [tag(16)] [seqNum(4)] then ciphertext
+    // 4. Transmit packet
+    // Only the bytes this mode actually uses go on the wire: no more
+    // padding 16 zero tag bytes into CTR/CBC. This is what makes airtime
+    // (and therefore the latency/energy terms of the cost function) an
+    // actual measured difference between modes instead of an assumption.
+    size_t ivLen = (mode == AESMode::CBC) ? 16 : 12;
     LoRa.beginPacket();
     LoRa.write(frame.mode);
-    LoRa.write(frame.iv,  16);
-    LoRa.write(frame.tag, 16);
+    LoRa.write(frame.iv, ivLen);
+    if (mode == AESMode::GCM)
+        LoRa.write(frame.tag, 16);
     LoRa.write((uint8_t*)&seqNum, 4);
     LoRa.write(frame.cipher, frame.len);
     LoRa.endPacket();
@@ -189,7 +201,7 @@ telem.timestamp = (uint32_t)(millis() / 1000);
                   readBatteryLevel(),
                   sec.linkState().snr);
 
-    // ── 5. Wait for ACK with link metrics ────────────────────────────────
+    // 5. Wait for ACK with link metrics
     uint32_t deadline = millis() + ACK_TIMEOUT_MS;
     bool ackReceived = false;
     while (millis() < deadline) {
@@ -199,14 +211,26 @@ telem.timestamp = (uint32_t)(millis() / 1000);
         if (pktSize == (int)sizeof(ACKMetrics)) {
             ACKMetrics ack;
             LoRa.readBytes((uint8_t*)&ack, sizeof(ack));
+
+            // Reject forged or replayed ACKs BEFORE they touch link state
+            // (S-4). Without this, a single crafted 3-byte-equivalent
+            // packet with authFailQ8=255 could force a downgrade out of
+            // GCM; verifyACK() checks both the HMAC and a monotonic
+            // counter.
+            if (!sec.verifyACK(ack)) {
+                Serial.println("[TX] Rejected ACK: bad MAC or replay");
+                delay(5);
+                continue;
+            }
+
             sec.updateLinkMetrics(ack);
             ackReceived = true;
             ackPackets++;
             rxReachable = true;
             Serial.printf("[TX] ACK snr=%d per=%.2f af=%.2f switches=%u\n",
                           ack.snrRaw,
-                          ack.perQ8    / 256.0f,
-                          ack.authFailQ8 / 256.0f,
+                          ack.perQ8    / 255.0f,
+                          ack.authFailQ8 / 255.0f,
                           sec.modeSwitchCount());
             break;
         }

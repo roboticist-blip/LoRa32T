@@ -1,10 +1,11 @@
 #include "LoRa32T.h"
 #include <esp_system.h>
 #include <string.h>
+#include <math.h>
 
-constexpr float LoRa32T::_toaNorm[3];
 LoRa32T::LoRa32T()
-    : _mode(AESMode::GCM), _dwellCount(0), _switchCount(0), _deviceId(0)
+    : _mode(AESMode::GCM), _dwellCount(0), _switchCount(0),
+      _packetsSinceProbe(0), _ackCounterTx(0), _ackCounterRx(0), _deviceId(0)
 {
     memset(_key,      0, sizeof(_key));
     memset(_lastCost, 0, sizeof(_lastCost));
@@ -13,11 +14,13 @@ LoRa32T::LoRa32T()
 
 void LoRa32T::begin(const uint8_t key[16],
                              CostWeights weights,
-                             StabilityConfig stab)
+                             StabilityConfig stab,
+                             RadioConfig radio)
 {
     memcpy(_key, key, 16);
-    _w    = weights;
-    _stab = stab;
+    _w     = weights;
+    _stab  = stab;
+    _radio = radio;
     uint8_t mac[6];
     esp_efuse_mac_get_default(mac);
     _deviceId = ((uint32_t)mac[2] << 24) | ((uint32_t)mac[3] << 16)
@@ -30,21 +33,45 @@ void LoRa32T::begin(const uint8_t key[16],
 
 void LoRa32T::updateLinkMetrics(const ACKMetrics& ack)
 {
-    float snrNew    = (float)ack.snrRaw;
-    float perNew    = ack.perQ8    / 256.0f;
-    float authNew   = ack.authFailQ8 / 256.0f;
-    _ls.snr      = 0.3f * snrNew  + 0.7f * _ls.snr;
-    _ls.perRadio = 0.3f * perNew  + 0.7f * _ls.perRadio;
-    _ls.perAuth  = 0.3f * authNew + 0.7f * _ls.perAuth;
+    // Metrics arrive from the receiver already carrying real information;
+    // apply the EMA exactly once here. Battery is intentionally NOT part
+    // of this path (see setBatteryLevel) — it is a direct local reading,
+    // not a filtered link estimate, and re-smoothing it here was the
+    // double-smoothing bug in M-7.
+    float snrNew  = (float)ack.snrRaw;
+    float perNew  = ack.perQ8       / 255.0f;
+    float authNew = ack.authFailQ8  / 255.0f;
+    float a = _stab.emaAlpha;
+    _ls.snr      = a * snrNew  + (1.0f - a) * _ls.snr;
+    _ls.perRadio = a * perNew  + (1.0f - a) * _ls.perRadio;
+    _ls.perAuth  = a * authNew + (1.0f - a) * _ls.perAuth;
 }
 
-void LoRa32T::updateLinkState(float snrDb, float perRadio,
-                                       float perAuth, float battLevel)
+void LoRa32T::setBatteryLevel(float battLevel)
 {
-    _ls.snr       = 0.3f * snrDb    + 0.7f * _ls.snr;
-    _ls.perRadio  = 0.3f * perRadio + 0.7f * _ls.perRadio;
-    _ls.perAuth   = 0.3f * perAuth  + 0.7f * _ls.perAuth;
-    _ls.battLevel = battLevel;
+    // Direct measurement — stored as-is, never fed back through the EMA.
+    _ls.battLevel = constrain(battLevel, 0.0f, 1.0f);
+}
+
+void LoRa32T::noteCrcResult(bool crcOk)
+{
+    // Generic corruption signal usable in every mode, not just GCM (M-3).
+    // Folded into perAuth with the same EMA so the reliability term stays
+    // informative while the controller is parked in CTR/CBC.
+    float a = _stab.emaAlpha;
+    float sample = crcOk ? 0.0f : 1.0f;
+    _ls.perAuth = a * sample + (1.0f - a) * _ls.perAuth;
+}
+
+bool LoRa32T::shouldProbeGCM()
+{
+    _packetsSinceProbe++;
+    uint16_t interval = _stab.minDwellPackets > 0 ? _stab.minDwellPackets : 20;
+    if (_mode != AESMode::GCM && _packetsSinceProbe >= interval) {
+        _packetsSinceProbe = 0;
+        return true;
+    }
+    return false;
 }
 
 float LoRa32T::_retryFactor(float per) const
@@ -58,32 +85,80 @@ float LoRa32T::_gammaEffective() const
     return _w.gamma0 + _w.kappa * (1.0f - _ls.battLevel);
 }
 
-float LoRa32T::_computeCost(AESMode m, SecurityPolicy policy) const
+size_t LoRa32T::frameHeaderSize(AESMode m) const
 {
+    // mode(1) + iv/nonce + [tag(16) only for GCM] + seq(4)
+    // CBC needs a full random 16-byte IV; CTR/GCM use a 12-byte nonce.
+    size_t ivLen  = (m == AESMode::CBC) ? 16 : 12;
+    size_t tagLen = (m == AESMode::GCM) ? 16 : 0;
+    return 1 + ivLen + tagLen + 4;
+}
 
-    if (policy == SecurityPolicy::Mandatory && m != AESMode::GCM)
-        return 1e9f;
-    if (policy == SecurityPolicy::Conditional && m == AESMode::CTR && _ls.snr > 0.0f)
+float LoRa32T::toaMs(AESMode m, size_t payloadLen) const
+{
+    // Semtech LoRa time-on-air formula (paper eq. 1-3), driven by the
+    // ACTUAL per-mode frame size instead of a hardcoded ratio (M-1).
+    const float bw = _radio.bwHz;
+    const float tSym = (1u << _radio.sf) / bw * 1000.0f; // ms
+
+    size_t pl = payloadLen + frameHeaderSize(m);
+    int de = _radio.lowDataRateOptimize ? 1 : 0;
+    int h  = _radio.explicitHeader ? 0 : 1;
+
+    float numerator = 8.0f * (float)pl - 4.0f * _radio.sf + 28.0f + 16.0f - 20.0f * h;
+    float denom      = 4.0f * (_radio.sf - 2.0f * de);
+    float nPayload = 8.0f + fmaxf(ceilf(numerator / denom) * (_radio.cr + 4), 0.0f);
+
+    float tPreamble = (_radio.preambleSymbols + 4.25f) * tSym;
+    return tPreamble + nPayload * tSym;
+}
+
+float LoRa32T::_computeCost(AESMode m, SecurityPolicy policy, size_t payloadLenHint) const
+{
+    if (!isModeAllowed(m, policy))
         return 1e9f;
 
     uint8_t idx = static_cast<uint8_t>(m);
-
 
     float perEff = _ls.perRadio;
     if (m == AESMode::GCM)
         perEff += _ls.perAuth;
 
-    // ── Reliability cost (Flink) ─────────────────────────────────────────
+    // Reliability cost (Flink)
     float fLink = perEff;
 
-    // ── Latency cost (paper eq. 12) ──────────────────────────────────────
-    float fLatency = _toaNorm[idx] * _retryFactor(perEff);
+    // Airtime normalised to CBC baseline, computed live from real frame
+    // sizes rather than a hardcoded {0.80, 1.00, 0.95} table (M-1).
+    float toaCBC = toaMs(AESMode::CBC, payloadLenHint);
+    float toaM   = toaMs(m,            payloadLenHint);
+    float toaNorm = (toaCBC > 0.0f) ? (toaM / toaCBC) : 1.0f;
 
-    // ── Energy cost (paper eq. 15) ───────────────────────────────────────
-    float fEnergy  = _toaNorm[idx];
+    // Latency cost (paper eq. 12) 
+    float fLatency = toaNorm * _retryFactor(perEff);
+
+    // Energy cost (paper eq. 15)
+    // NOTE (M-2): fEnergy and the airtime component of fLatency share the
+    // same physical basis (toaNorm), so beta and gamma are not
+    // independently identifiable from this term alone. Until energy is
+    // measured directly (e.g. INA219 current draw per mode, including the
+    // AES computation cost), treat alpha and a combined (beta, gamma) as
+    // the two effectively free parameters of this model, not three.
+    float fEnergy  = toaNorm;
 
     float gamma = _gammaEffective();
     return _w.alpha * fLink + _w.beta * fLatency + gamma * fEnergy;
+}
+
+bool LoRa32T::isModeAllowed(AESMode frameMode, SecurityPolicy policy) const
+{
+    if (policy == SecurityPolicy::Mandatory && frameMode != AESMode::GCM)
+        return false;
+    // Conditional: CTR only when SNR is genuinely poor. Boundary fixed to
+    // >= 0 dB so it matches the documented behaviour exactly at the
+    // quantised 0 dB value that the receive path actually produces (M-6).
+    if (policy == SecurityPolicy::Conditional && frameMode == AESMode::CTR && _ls.snr >= 0.0f)
+        return false;
+    return true;
 }
 
 AESMode LoRa32T::selectMode(SecurityPolicy policy)
@@ -118,7 +193,12 @@ AESMode LoRa32T::selectMode(SecurityPolicy policy)
         _dwellCount++;
         return _mode;
     }
-    if ((currC - bestC) < _stab.hystThresh) {
+    // Relative hysteresis (M-5): a fixed cost margin, not a fixed absolute
+    // difference, so switching sensitivity stays constant across the cost
+    // range instead of drifting between ~7% and ~16% depending on the
+    // operating point.
+    float bestSafe = (bestC > 1e-6f) ? bestC : 1e-6f;
+    if (((currC - bestC) / bestSafe) < _stab.hystThresh) {
         _dwellCount++;
         return _mode;
     }
@@ -148,7 +228,13 @@ bool LoRa32T::encrypt(const uint8_t* plain, size_t plainLen,
     frame.mode = static_cast<uint8_t>(_mode);
     frame.len  = plainLen;
     memset(frame.tag, 0, 16);
+    memset(frame.iv,  0, 16);
 
+    // Mode byte + seqNum are bound into the GCM AAD (S-2): a receiver
+    // that decrypts as GCM is thereby cryptographically guaranteed the
+    // sender also selected GCM, so an attacker flipping the cleartext
+    // mode byte in transit cannot silently downgrade an authenticated
+    // frame — the tag simply won't verify.
     switch (_mode) {
         case AESMode::CBC: {
             for (int i = 0; i < 16; i++)
@@ -157,19 +243,18 @@ bool LoRa32T::encrypt(const uint8_t* plain, size_t plainLen,
         }
         case AESMode::CTR: {
             _buildNonce(seqNum, frame.iv);
-            memset(frame.iv + 12, 0, 4);
             return _encryptCTR(plain, plainLen, frame.iv, frame.cipher);
         }
         case AESMode::GCM: {
             uint8_t nonce[12];
             _buildNonce(seqNum, nonce);
             memcpy(frame.iv, nonce, 12);
-            memset(frame.iv + 12, 0, 4);
-            uint8_t aad[4] = {
+            uint8_t aad[5] = {
+                frame.mode,
                 (uint8_t)(seqNum >> 24), (uint8_t)(seqNum >> 16),
                 (uint8_t)(seqNum >>  8), (uint8_t) seqNum
             };
-            return _encryptGCM(plain, plainLen, nonce, aad, 4,
+            return _encryptGCM(plain, plainLen, nonce, aad, 5,
                                 frame.cipher, frame.tag);
         }
     }
@@ -186,12 +271,33 @@ bool LoRa32T::decrypt(const CryptoFrame& frame, uint8_t* plain)
             return _decryptCTR(frame.cipher, frame.len, frame.iv, plain);
         case AESMode::GCM: {
             const uint8_t* nonce = frame.iv;
-            uint8_t aad[4] = { nonce[0], nonce[1], nonce[2], nonce[3] };
-            return _decryptGCM(frame.cipher, frame.len, nonce, aad, 4,
+            // Reconstruct AAD from the same fields the sender bound in.
+            // seqNum isn't carried separately here — callers that need
+            // seqNum-in-AAD must pass it via the frame's own seq field
+            // when parsing the wire packet (see RX example).
+            uint8_t aad[5] = { frame.mode, nonce[0], nonce[1], nonce[2], nonce[3] };
+            return _decryptGCM(frame.cipher, frame.len, nonce, aad, 5,
                                 frame.tag, plain);
         }
     }
     return false;
+}
+
+void LoRa32T::_ackMac(const ACKMetrics& ackNoMac, uint8_t out[8]) const
+{
+    uint8_t buf[7];
+    buf[0] = (uint8_t)ackNoMac.snrRaw;
+    buf[1] = ackNoMac.perQ8;
+    buf[2] = ackNoMac.authFailQ8;
+    buf[3] = (uint8_t)(ackNoMac.counter >> 24);
+    buf[4] = (uint8_t)(ackNoMac.counter >> 16);
+    buf[5] = (uint8_t)(ackNoMac.counter >>  8);
+    buf[6] = (uint8_t)(ackNoMac.counter);
+
+    uint8_t full[32];
+    const mbedtls_md_info_t* info = mbedtls_md_info_from_type(MBEDTLS_MD_SHA256);
+    mbedtls_md_hmac(info, _key, sizeof(_key), buf, sizeof(buf), full);
+    memcpy(out, full, 8);   // truncated tag; sufficient given the small ACK
 }
 
 ACKMetrics LoRa32T::buildACK(int8_t rawSnr,
@@ -208,7 +314,29 @@ ACKMetrics LoRa32T::buildACK(int8_t rawSnr,
 
     ack.perQ8      = (uint8_t)(per * 255.0f + 0.5f);
     ack.authFailQ8 = (uint8_t)(afr * 255.0f + 0.5f);
+    ack.counter    = ++_ackCounterTx;
+    _ackMac(ack, ack.mac);
     return ack;
+}
+
+bool LoRa32T::verifyACK(const ACKMetrics& ack)
+{
+    // Reject stale or replayed counters (S-4). A fresh device pairing
+    // should reset _ackCounterRx (e.g. on a mode-0/handshake packet);
+    // this implementation takes the simple monotonic-counter approach
+    // the audit's fix recommends, not a full session-resync protocol.
+    if (ack.counter <= _ackCounterRx)
+        return false;
+
+    uint8_t expected[8];
+    _ackMac(ack, expected);
+    uint8_t diff = 0;
+    for (int i = 0; i < 8; i++) diff |= (expected[i] ^ ack.mac[i]);
+    if (diff != 0)
+        return false;
+
+    _ackCounterRx = ack.counter;
+    return true;
 }
 
 bool LoRa32T::_encryptCBC(const uint8_t* plain, size_t len,

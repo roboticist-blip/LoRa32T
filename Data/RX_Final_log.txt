@@ -1,0 +1,1953 @@
+[RX] #0 mode=0 T=25.33 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.012 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.011 perAuth=0.000 batt=1.00 mode=CTR cost=0.3288 (CTR=0.3288 CBC=0.4095 GCM=0.3893)
+[RX] #1 mode=0 T=25.78 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.012 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.011 perAuth=0.000 batt=1.00 mode=CTR cost=0.3287 (CTR=0.3287 CBC=0.4094 GCM=0.3892)
+[RX] #2 mode=0 T=25.96 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.012 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.011 perAuth=0.000 batt=1.00 mode=CTR cost=0.3286 (CTR=0.3286 CBC=0.4093 GCM=0.3891)
+[RX] #3 mode=0 T=25.65 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.012 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.011 perAuth=0.000 batt=1.00 mode=CTR cost=0.3285 (CTR=0.3285 CBC=0.4092 GCM=0.3890)
+[RX] #4 mode=0 T=25.50 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.012 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.011 perAuth=0.000 batt=1.00 mode=CTR cost=0.3284 (CTR=0.3284 CBC=0.4091 GCM=0.3889)
+[RX] #5 mode=0 T=25.83 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.012 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.011 perAuth=0.000 batt=1.00 mode=CTR cost=0.3283 (CTR=0.3283 CBC=0.4090 GCM=0.3888)
+[RX] #6 mode=0 T=25.84 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.012 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.010 perAuth=0.000 batt=1.00 mode=CTR cost=0.3283 (CTR=0.3283 CBC=0.4089 GCM=0.3887)
+[RX] #7 mode=0 T=26.21 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.021 perAuth=0.000 batt=1.00 mode=CTR cost=0.3364 (CTR=0.3364 CBC=0.4177 GCM=0.3973)
+[RX] #8 mode=0 T=25.75 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.020 perAuth=0.000 batt=1.00 mode=CTR cost=0.3362 (CTR=0.3362 CBC=0.4175 GCM=0.3972)
+[RX] #9 mode=0 T=25.45 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.020 perAuth=0.000 batt=1.00 mode=CTR cost=0.3361 (CTR=0.3361 CBC=0.4173 GCM=0.3970)
+[RX] #10 mode=0 T=25.62 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.020 perAuth=0.000 batt=1.00 mode=CTR cost=0.3359 (CTR=0.3359 CBC=0.4171 GCM=0.3968)
+[RX] #11 mode=0 T=25.31 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.020 perAuth=0.000 batt=1.00 mode=CTR cost=0.3357 (CTR=0.3357 CBC=0.4170 GCM=0.3966)
+[RX] #12 mode=0 T=26.11 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=2 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.020 perAuth=0.000 batt=1.00 mode=CTR cost=0.3356 (CTR=0.3356 CBC=0.4168 GCM=0.3965)
+[RX] #13 mode=0 T=25.40 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.019 perAuth=0.000 batt=1.00 mode=CTR cost=0.3354 (CTR=0.3354 CBC=0.4166 GCM=0.3963)
+[RX] #14 mode=0 T=26.12 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=6 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.019 perAuth=0.000 batt=1.00 mode=CTR cost=0.3353 (CTR=0.3353 CBC=0.4165 GCM=0.3962)
+[RX] #15 mode=0 T=25.93 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=-3 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.019 perAuth=0.000 batt=1.00 mode=CTR cost=0.3351 (CTR=0.3351 CBC=0.4163 GCM=0.3960)
+[RX] #16 mode=0 T=25.88 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.019 perAuth=0.000 batt=1.00 mode=CTR cost=0.3350 (CTR=0.3350 CBC=0.4161 GCM=0.3959)
+[RX] #17 mode=0 T=25.70 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.019 perAuth=0.000 batt=1.00 mode=CTR cost=0.3349 (CTR=0.3349 CBC=0.4160 GCM=0.3957)
+[RX] #18 mode=0 T=25.57 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=0 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.019 perAuth=0.000 batt=1.00 mode=CTR cost=0.3347 (CTR=0.3347 CBC=0.4158 GCM=0.3956)
+[RX] #19 mode=0 T=26.02 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=4 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.018 perAuth=0.000 batt=1.00 mode=CTR cost=0.3346 (CTR=0.3346 CBC=0.4157 GCM=0.3954)
+[RX] #20 mode=0 T=26.22 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=-4 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.018 perAuth=0.000 batt=1.00 mode=CTR cost=0.3344 (CTR=0.3344 CBC=0.4156 GCM=0.3953)
+[RX] #21 mode=0 T=26.12 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=0 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.018 perAuth=0.000 batt=1.00 mode=CTR cost=0.3343 (CTR=0.3343 CBC=0.4154 GCM=0.3951)
+[RX] #22 mode=0 T=25.40 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=2 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.018 perAuth=0.000 batt=1.00 mode=CTR cost=0.3342 (CTR=0.3342 CBC=0.4153 GCM=0.3950)
+[RX] #23 mode=0 T=26.22 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=2 per=0.020 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.018 perAuth=0.000 batt=1.00 mode=CTR cost=0.3341 (CTR=0.3341 CBC=0.4151 GCM=0.3949)
+[RX] #24 mode=0 T=26.11 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.016 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.018 perAuth=0.000 batt=1.00 mode=CTR cost=0.3339 (CTR=0.3339 CBC=0.4150 GCM=0.3947)
+[RX] #25 mode=0 T=25.38 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.016 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.017 perAuth=0.000 batt=1.00 mode=CTR cost=0.3338 (CTR=0.3338 CBC=0.4149 GCM=0.3946)
+[RX] #26 mode=0 T=25.87 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.016 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.017 perAuth=0.000 batt=1.00 mode=CTR cost=0.3337 (CTR=0.3337 CBC=0.4147 GCM=0.3945)
+[RX] #27 mode=0 T=25.58 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=2 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.026 perAuth=0.000 batt=1.00 mode=CTR cost=0.3404 (CTR=0.3404 CBC=0.4220 GCM=0.4016)
+[RX] #28 mode=0 T=25.72 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.023 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.025 perAuth=0.000 batt=1.00 mode=CTR cost=0.3402 (CTR=0.3402 CBC=0.4218 GCM=0.4014)
+[RX] #29 mode=0 T=26.09 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.023 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.025 perAuth=0.000 batt=1.00 mode=CTR cost=0.3401 (CTR=0.3401 CBC=0.4216 GCM=0.4012)
+[RX] #30 mode=0 T=25.66 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=-3 per=0.023 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.025 perAuth=0.000 batt=1.00 mode=CTR cost=0.3399 (CTR=0.3399 CBC=0.4214 GCM=0.4011)
+[RX] #31 mode=0 T=25.50 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=3 per=0.023 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.025 perAuth=0.000 batt=1.00 mode=CTR cost=0.3397 (CTR=0.3397 CBC=0.4213 GCM=0.4009)
+[RX] #32 mode=0 T=26.20 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=4 per=0.023 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.025 perAuth=0.000 batt=1.00 mode=CTR cost=0.3396 (CTR=0.3396 CBC=0.4211 GCM=0.4007)
+[RX] #33 mode=0 T=25.56 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=-7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3460 (CTR=0.3460 CBC=0.4280 GCM=0.4075)
+[RX] #34 mode=0 T=25.39 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=1 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.048 perAuth=0.000 batt=1.00 mode=CTR cost=0.3588 (CTR=0.3588 CBC=0.4419 GCM=0.4211)
+[RX] #35 mode=0 T=26.27 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=2 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.048 perAuth=0.000 batt=1.00 mode=CTR cost=0.3585 (CTR=0.3585 CBC=0.4415 GCM=0.4208)
+[RX] #36 mode=0 T=25.92 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=0 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.048 perAuth=0.000 batt=1.00 mode=CTR cost=0.3582 (CTR=0.3582 CBC=0.4412 GCM=0.4204)
+[RX] #37 mode=0 T=26.24 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=0 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.047 perAuth=0.000 batt=1.00 mode=CTR cost=0.3579 (CTR=0.3579 CBC=0.4409 GCM=0.4201)
+[RX] #38 mode=0 T=26.06 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=4 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.047 perAuth=0.000 batt=1.00 mode=CTR cost=0.3576 (CTR=0.3576 CBC=0.4405 GCM=0.4198)
+[RX] #39 mode=0 T=25.93 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.047 perAuth=0.000 batt=1.00 mode=CTR cost=0.3573 (CTR=0.3573 CBC=0.4402 GCM=0.4195)
+[RX] #40 mode=0 T=25.34 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=-2 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.046 perAuth=0.000 batt=1.00 mode=CTR cost=0.3570 (CTR=0.3570 CBC=0.4399 GCM=0.4192)
+[RX] #41 mode=0 T=25.88 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=6 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.046 perAuth=0.000 batt=1.00 mode=CTR cost=0.3567 (CTR=0.3567 CBC=0.4396 GCM=0.4189)
+[RX] #42 mode=0 T=25.30 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.045 perAuth=0.000 batt=1.00 mode=CTR cost=0.3564 (CTR=0.3564 CBC=0.4393 GCM=0.4186)
+[RX] #43 mode=0 T=26.27 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.045 perAuth=0.000 batt=1.00 mode=CTR cost=0.3562 (CTR=0.3562 CBC=0.4390 GCM=0.4183)
+[RX] #44 mode=0 T=26.27 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.045 perAuth=0.000 batt=1.00 mode=CTR cost=0.3559 (CTR=0.3559 CBC=0.4387 GCM=0.4180)
+[RX] #45 mode=0 T=26.09 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3556 (CTR=0.3556 CBC=0.4384 GCM=0.4177)
+[RX] #46 mode=0 T=26.23 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3553 (CTR=0.3553 CBC=0.4381 GCM=0.4174)
+[RX] #47 mode=0 T=26.29 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3551 (CTR=0.3551 CBC=0.4378 GCM=0.4171)
+[RX] #48 mode=0 T=26.18 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.043 perAuth=0.000 batt=1.00 mode=CTR cost=0.3548 (CTR=0.3548 CBC=0.4375 GCM=0.4169)
+[RX] #49 mode=0 T=25.49 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.043 perAuth=0.000 batt=1.00 mode=CTR cost=0.3546 (CTR=0.3546 CBC=0.4373 GCM=0.4166)
+[RX] #50 mode=0 T=26.03 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.043 perAuth=0.000 batt=1.00 mode=CTR cost=0.3543 (CTR=0.3543 CBC=0.4370 GCM=0.4163)
+[RX] #51 mode=0 T=25.93 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=11 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=11.0 perRadio=0.043 perAuth=0.000 batt=1.00 mode=CTR cost=0.3541 (CTR=0.3541 CBC=0.4367 GCM=0.4161)
+[RX] #52 mode=0 T=25.85 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.042 perAuth=0.000 batt=1.00 mode=CTR cost=0.3538 (CTR=0.3538 CBC=0.4365 GCM=0.4158)
+[RX] #53 mode=0 T=25.60 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.042 perAuth=0.000 batt=1.00 mode=CTR cost=0.3536 (CTR=0.3536 CBC=0.4362 GCM=0.4156)
+[RX] #54 mode=0 T=26.05 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.042 perAuth=0.000 batt=1.00 mode=CTR cost=0.3534 (CTR=0.3534 CBC=0.4360 GCM=0.4153)
+[RX] #55 mode=0 T=25.94 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.041 perAuth=0.000 batt=1.00 mode=CTR cost=0.3531 (CTR=0.3531 CBC=0.4357 GCM=0.4151)
+[RX] #56 mode=0 T=25.94 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.041 perAuth=0.000 batt=1.00 mode=CTR cost=0.3529 (CTR=0.3529 CBC=0.4355 GCM=0.4148)
+[RX] #57 mode=0 T=26.29 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.041 perAuth=0.000 batt=1.00 mode=CTR cost=0.3527 (CTR=0.3527 CBC=0.4352 GCM=0.4146)
+[RX] #58 mode=0 T=26.09 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.047 perAuth=0.000 batt=1.00 mode=CTR cost=0.3579 (CTR=0.3579 CBC=0.4409 GCM=0.4202)
+[RX] #59 mode=0 T=25.93 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.047 perAuth=0.000 batt=1.00 mode=CTR cost=0.3577 (CTR=0.3577 CBC=0.4406 GCM=0.4199)
+[RX] #60 mode=0 T=25.61 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.047 perAuth=0.000 batt=1.00 mode=CTR cost=0.3574 (CTR=0.3574 CBC=0.4404 GCM=0.4196)
+[RX] #61 mode=0 T=26.05 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.046 perAuth=0.000 batt=1.00 mode=CTR cost=0.3572 (CTR=0.3572 CBC=0.4401 GCM=0.4194)
+[RX] #62 mode=0 T=25.82 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.046 perAuth=0.000 batt=1.00 mode=CTR cost=0.3569 (CTR=0.3569 CBC=0.4398 GCM=0.4191)
+[RX] #63 mode=0 T=25.49 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.046 perAuth=0.000 batt=1.00 mode=CTR cost=0.3567 (CTR=0.3567 CBC=0.4395 GCM=0.4188)
+[RX] #64 mode=0 T=26.13 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.045 perAuth=0.000 batt=1.00 mode=CTR cost=0.3564 (CTR=0.3564 CBC=0.4393 GCM=0.4186)
+[RX] #65 mode=0 T=25.33 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.045 perAuth=0.000 batt=1.00 mode=CTR cost=0.3562 (CTR=0.3562 CBC=0.4390 GCM=0.4183)
+[RX] #66 mode=0 T=25.43 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.045 perAuth=0.000 batt=1.00 mode=CTR cost=0.3560 (CTR=0.3560 CBC=0.4388 GCM=0.4181)
+[RX] #67 mode=0 T=26.21 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.045 perAuth=0.000 batt=1.00 mode=CTR cost=0.3557 (CTR=0.3557 CBC=0.4385 GCM=0.4178)
+[RX] #68 mode=0 T=26.10 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3555 (CTR=0.3555 CBC=0.4383 GCM=0.4176)
+[RX] #69 mode=0 T=25.87 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3553 (CTR=0.3553 CBC=0.4380 GCM=0.4173)
+[RX] #70 mode=0 T=25.52 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3550 (CTR=0.3550 CBC=0.4378 GCM=0.4171)
+[RX] #71 mode=0 T=25.73 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.043 perAuth=0.000 batt=1.00 mode=CTR cost=0.3548 (CTR=0.3548 CBC=0.4375 GCM=0.4169)
+[RX] #72 mode=0 T=26.13 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.043 perAuth=0.000 batt=1.00 mode=CTR cost=0.3546 (CTR=0.3546 CBC=0.4373 GCM=0.4166)
+[RX] #73 mode=0 T=25.82 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.043 perAuth=0.000 batt=1.00 mode=CTR cost=0.3544 (CTR=0.3544 CBC=0.4371 GCM=0.4164)
+[RX] #74 mode=0 T=25.66 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.043 perAuth=0.000 batt=1.00 mode=CTR cost=0.3542 (CTR=0.3542 CBC=0.4369 GCM=0.4162)
+[RX] #75 mode=0 T=25.91 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.042 perAuth=0.000 batt=1.00 mode=CTR cost=0.3540 (CTR=0.3540 CBC=0.4366 GCM=0.4160)
+[RX] #76 mode=0 T=26.16 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.042 perAuth=0.000 batt=1.00 mode=CTR cost=0.3538 (CTR=0.3538 CBC=0.4364 GCM=0.4157)
+[RX] #77 mode=0 T=25.41 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.042 perAuth=0.000 batt=1.00 mode=CTR cost=0.3536 (CTR=0.3536 CBC=0.4362 GCM=0.4155)
+[RX] #78 mode=0 T=26.18 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.042 perAuth=0.000 batt=1.00 mode=CTR cost=0.3534 (CTR=0.3534 CBC=0.4360 GCM=0.4153)
+[RX] #79 mode=0 T=25.42 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.041 perAuth=0.000 batt=1.00 mode=CTR cost=0.3532 (CTR=0.3532 CBC=0.4357 GCM=0.4151)
+[RX] #80 mode=0 T=25.58 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.041 perAuth=0.000 batt=1.00 mode=CTR cost=0.3530 (CTR=0.3530 CBC=0.4355 GCM=0.4149)
+[RX] #81 mode=0 T=25.83 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.041 perAuth=0.000 batt=1.00 mode=CTR cost=0.3528 (CTR=0.3528 CBC=0.4353 GCM=0.4147)
+[RX] #82 mode=0 T=26.10 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.041 perAuth=0.000 batt=1.00 mode=CTR cost=0.3526 (CTR=0.3526 CBC=0.4351 GCM=0.4145)
+[RX] #83 mode=0 T=26.01 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.040 perAuth=0.000 batt=1.00 mode=CTR cost=0.3524 (CTR=0.3524 CBC=0.4349 GCM=0.4143)
+[RX] #84 mode=0 T=25.94 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.040 perAuth=0.000 batt=1.00 mode=CTR cost=0.3522 (CTR=0.3522 CBC=0.4347 GCM=0.4141)
+[RX] #85 mode=0 T=25.94 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.040 perAuth=0.000 batt=1.00 mode=CTR cost=0.3520 (CTR=0.3520 CBC=0.4345 GCM=0.4139)
+[RX] #86 mode=0 T=25.75 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.040 perAuth=0.000 batt=1.00 mode=CTR cost=0.3518 (CTR=0.3518 CBC=0.4343 GCM=0.4137)
+[RX] #87 mode=0 T=25.96 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.040 perAuth=0.000 batt=1.00 mode=CTR cost=0.3516 (CTR=0.3516 CBC=0.4341 GCM=0.4135)
+[RX] #88 mode=0 T=26.07 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.039 perAuth=0.000 batt=1.00 mode=CTR cost=0.3515 (CTR=0.3515 CBC=0.4339 GCM=0.4133)
+[RX] #89 mode=0 T=25.88 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.039 perAuth=0.000 batt=1.00 mode=CTR cost=0.3513 (CTR=0.3513 CBC=0.4337 GCM=0.4131)
+[RX] #90 mode=0 T=26.11 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.039 perAuth=0.000 batt=1.00 mode=CTR cost=0.3511 (CTR=0.3511 CBC=0.4335 GCM=0.4129)
+[RX] #91 mode=0 T=25.47 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.039 perAuth=0.000 batt=1.00 mode=CTR cost=0.3509 (CTR=0.3509 CBC=0.4333 GCM=0.4127)
+[RX] #92 mode=0 T=25.66 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.038 perAuth=0.000 batt=1.00 mode=CTR cost=0.3508 (CTR=0.3508 CBC=0.4332 GCM=0.4126)
+[RX] #93 mode=0 T=25.77 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.038 perAuth=0.000 batt=1.00 mode=CTR cost=0.3506 (CTR=0.3506 CBC=0.4330 GCM=0.4124)
+[RX] #94 mode=0 T=25.51 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.038 perAuth=0.000 batt=1.00 mode=CTR cost=0.3504 (CTR=0.3504 CBC=0.4328 GCM=0.4122)
+[RX] #95 mode=0 T=25.63 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.038 perAuth=0.000 batt=1.00 mode=CTR cost=0.3502 (CTR=0.3502 CBC=0.4326 GCM=0.4120)
+[RX] #96 mode=0 T=26.05 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.038 perAuth=0.000 batt=1.00 mode=CTR cost=0.3501 (CTR=0.3501 CBC=0.4324 GCM=0.4118)
+[RX] #97 mode=0 T=25.98 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.037 perAuth=0.000 batt=1.00 mode=CTR cost=0.3499 (CTR=0.3499 CBC=0.4323 GCM=0.4117)
+[RX] #98 mode=0 T=25.37 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.037 perAuth=0.000 batt=1.00 mode=CTR cost=0.3498 (CTR=0.3498 CBC=0.4321 GCM=0.4115)
+[RX] #99 mode=0 T=26.10 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.037 perAuth=0.000 batt=1.00 mode=CTR cost=0.3496 (CTR=0.3496 CBC=0.4319 GCM=0.4113)
+[RX] #100 mode=0 T=25.47 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.037 perAuth=0.000 batt=1.00 mode=CTR cost=0.3494 (CTR=0.3494 CBC=0.4317 GCM=0.4112)
+[RX] #101 mode=0 T=25.82 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.037 perAuth=0.000 batt=1.00 mode=CTR cost=0.3493 (CTR=0.3493 CBC=0.4316 GCM=0.4110)
+[RX] #102 mode=0 T=25.55 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.036 perAuth=0.000 batt=1.00 mode=CTR cost=0.3491 (CTR=0.3491 CBC=0.4314 GCM=0.4108)
+[RX] #103 mode=0 T=25.82 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.036 perAuth=0.000 batt=1.00 mode=CTR cost=0.3490 (CTR=0.3490 CBC=0.4312 GCM=0.4107)
+[RX] #104 mode=0 T=26.21 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.036 perAuth=0.000 batt=1.00 mode=CTR cost=0.3488 (CTR=0.3488 CBC=0.4311 GCM=0.4105)
+[RX] #105 mode=0 T=25.33 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.036 perAuth=0.000 batt=1.00 mode=CTR cost=0.3487 (CTR=0.3487 CBC=0.4309 GCM=0.4104)
+[RX] #106 mode=0 T=26.02 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.036 perAuth=0.000 batt=1.00 mode=CTR cost=0.3485 (CTR=0.3485 CBC=0.4308 GCM=0.4102)
+[RX] #107 mode=0 T=25.38 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.036 perAuth=0.000 batt=1.00 mode=CTR cost=0.3484 (CTR=0.3484 CBC=0.4306 GCM=0.4100)
+[RX] #108 mode=0 T=26.22 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.035 perAuth=0.000 batt=1.00 mode=CTR cost=0.3482 (CTR=0.3482 CBC=0.4304 GCM=0.4099)
+[RX] #109 mode=0 T=25.81 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.035 perAuth=0.000 batt=1.00 mode=CTR cost=0.3481 (CTR=0.3481 CBC=0.4303 GCM=0.4097)
+[RX] #110 mode=0 T=26.21 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.035 perAuth=0.000 batt=1.00 mode=CTR cost=0.3480 (CTR=0.3480 CBC=0.4301 GCM=0.4096)
+[RX] #111 mode=0 T=25.30 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.035 perAuth=0.000 batt=1.00 mode=CTR cost=0.3478 (CTR=0.3478 CBC=0.4300 GCM=0.4094)
+[RX] #112 mode=0 T=26.29 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.035 perAuth=0.000 batt=1.00 mode=CTR cost=0.3477 (CTR=0.3477 CBC=0.4298 GCM=0.4093)
+[RX] #113 mode=0 T=26.18 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.034 perAuth=0.000 batt=1.00 mode=CTR cost=0.3475 (CTR=0.3475 CBC=0.4297 GCM=0.4091)
+[RX] #114 mode=0 T=25.73 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.034 perAuth=0.000 batt=1.00 mode=CTR cost=0.3474 (CTR=0.3474 CBC=0.4295 GCM=0.4090)
+[RX] #115 mode=0 T=25.95 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.034 perAuth=0.000 batt=1.00 mode=CTR cost=0.3473 (CTR=0.3473 CBC=0.4294 GCM=0.4089)
+[RX] #116 mode=0 T=25.44 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.034 perAuth=0.000 batt=1.00 mode=CTR cost=0.3471 (CTR=0.3471 CBC=0.4292 GCM=0.4087)
+[RX] #117 mode=0 T=26.28 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.034 perAuth=0.000 batt=1.00 mode=CTR cost=0.3470 (CTR=0.3470 CBC=0.4291 GCM=0.4086)
+[RX] #118 mode=0 T=25.42 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.034 perAuth=0.000 batt=1.00 mode=CTR cost=0.3469 (CTR=0.3469 CBC=0.4290 GCM=0.4084)
+[RX] #119 mode=0 T=25.84 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3467 (CTR=0.3467 CBC=0.4288 GCM=0.4083)
+[RX] #120 mode=0 T=25.77 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3466 (CTR=0.3466 CBC=0.4287 GCM=0.4082)
+[RX] #121 mode=0 T=26.09 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3465 (CTR=0.3465 CBC=0.4285 GCM=0.4080)
+[RX] #122 mode=0 T=26.04 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3464 (CTR=0.3464 CBC=0.4284 GCM=0.4079)
+[RX] #123 mode=0 T=25.93 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3462 (CTR=0.3462 CBC=0.4283 GCM=0.4078)
+[RX] #124 mode=0 T=25.69 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3461 (CTR=0.3461 CBC=0.4281 GCM=0.4076)
+[RX] #125 mode=0 T=26.01 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3460 (CTR=0.3460 CBC=0.4280 GCM=0.4075)
+[RX] #126 mode=0 T=25.63 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3459 (CTR=0.3459 CBC=0.4279 GCM=0.4074)
+[RX] #127 mode=0 T=25.98 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3457 (CTR=0.3457 CBC=0.4277 GCM=0.4072)
+[RX] #128 mode=0 T=25.59 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3456 (CTR=0.3456 CBC=0.4276 GCM=0.4071)
+[RX] #129 mode=0 T=25.57 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3455 (CTR=0.3455 CBC=0.4275 GCM=0.4070)
+[RX] #130 mode=0 T=25.52 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=10 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3454 (CTR=0.3454 CBC=0.4274 GCM=0.4069)
+[RX] #131 mode=0 T=26.06 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3453 (CTR=0.3453 CBC=0.4272 GCM=0.4067)
+[RX] #132 mode=0 T=26.20 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3452 (CTR=0.3452 CBC=0.4271 GCM=0.4066)
+[RX] #133 mode=0 T=25.30 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3450 (CTR=0.3450 CBC=0.4270 GCM=0.4065)
+[RX] #134 mode=0 T=25.73 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3449 (CTR=0.3449 CBC=0.4269 GCM=0.4064)
+[RX] #135 mode=0 T=25.48 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3448 (CTR=0.3448 CBC=0.4267 GCM=0.4063)
+[RX] #136 mode=0 T=25.38 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3447 (CTR=0.3447 CBC=0.4266 GCM=0.4061)
+[RX] #137 mode=0 T=26.24 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3446 (CTR=0.3446 CBC=0.4265 GCM=0.4060)
+[RX] #138 mode=0 T=26.01 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3445 (CTR=0.3445 CBC=0.4264 GCM=0.4059)
+[RX] #139 mode=0 T=25.71 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3444 (CTR=0.3444 CBC=0.4263 GCM=0.4058)
+[RX] #140 mode=0 T=25.55 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3443 (CTR=0.3443 CBC=0.4262 GCM=0.4057)
+[RX] #141 mode=0 T=26.15 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3442 (CTR=0.3442 CBC=0.4260 GCM=0.4056)
+[RX] #142 mode=0 T=25.66 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3441 (CTR=0.3441 CBC=0.4259 GCM=0.4055)
+[RX] #143 mode=0 T=25.63 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3440 (CTR=0.3440 CBC=0.4258 GCM=0.4054)
+[RX] #144 mode=0 T=25.32 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3439 (CTR=0.3439 CBC=0.4257 GCM=0.4052)
+[RX] #145 mode=0 T=25.70 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3438 (CTR=0.3438 CBC=0.4256 GCM=0.4051)
+[RX] #146 mode=0 T=25.70 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3436 (CTR=0.3436 CBC=0.4255 GCM=0.4050)
+[RX] #147 mode=0 T=26.21 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3435 (CTR=0.3435 CBC=0.4254 GCM=0.4049)
+[RX] #148 mode=0 T=25.95 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3434 (CTR=0.3434 CBC=0.4253 GCM=0.4048)
+[RX] #149 mode=0 T=26.22 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=7 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3434 (CTR=0.3434 CBC=0.4252 GCM=0.4047)
+[RX] #150 mode=0 T=25.79 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3433 (CTR=0.3433 CBC=0.4251 GCM=0.4046)
+[RX] #151 mode=0 T=25.76 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3432 (CTR=0.3432 CBC=0.4249 GCM=0.4045)
+[RX] #152 mode=0 T=25.53 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=4 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3431 (CTR=0.3431 CBC=0.4248 GCM=0.4044)
+[RX] #153 mode=0 T=25.69 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=4 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3430 (CTR=0.3430 CBC=0.4247 GCM=0.4043)
+[RX] #154 mode=0 T=25.70 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=3 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3429 (CTR=0.3429 CBC=0.4246 GCM=0.4042)
+[RX] #155 mode=0 T=25.62 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=2 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3428 (CTR=0.3428 CBC=0.4245 GCM=0.4041)
+[RX] #156 mode=0 T=25.99 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=3 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3427 (CTR=0.3427 CBC=0.4244 GCM=0.4040)
+[RX] #157 mode=0 T=26.05 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=0 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3426 (CTR=0.3426 CBC=0.4243 GCM=0.4039)
+[RX] #158 mode=0 T=25.87 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=-1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3425 (CTR=0.3425 CBC=0.4242 GCM=0.4038)
+[RX] #159 mode=0 T=26.19 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=-2 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3424 (CTR=0.3424 CBC=0.4241 GCM=0.4037)
+[RX] #160 mode=0 T=25.49 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=0 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3423 (CTR=0.3423 CBC=0.4240 GCM=0.4036)
+[RX] #161 mode=0 T=25.78 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=2 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3422 (CTR=0.3422 CBC=0.4239 GCM=0.4035)
+[RX] #162 mode=0 T=25.57 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3421 (CTR=0.3421 CBC=0.4238 GCM=0.4034)
+[RX] #163 mode=0 T=25.31 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3420 (CTR=0.3420 CBC=0.4238 GCM=0.4033)
+[RX] #164 mode=0 T=25.68 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=0 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3420 (CTR=0.3420 CBC=0.4237 GCM=0.4032)
+[RX] #165 mode=0 T=25.72 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=0 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3419 (CTR=0.3419 CBC=0.4236 GCM=0.4031)
+[RX] #166 mode=0 T=26.03 P=0.00 lat=0.0000 lng=0.0000
+[RX] ACK sent snr=-1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3418 (CTR=0.3418 CBC=0.4235 GCM=0.4031)
+[RX] #167 mode=0 T=26.26 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3417 (CTR=0.3417 CBC=0.4234 GCM=0.4030)
+[RX] #168 mode=0 T=26.05 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3416 (CTR=0.3416 CBC=0.4233 GCM=0.4029)
+[RX] #169 mode=0 T=26.12 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=0 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3415 (CTR=0.3415 CBC=0.4232 GCM=0.4028)
+[RX] #170 mode=0 T=25.37 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=-2 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3414 (CTR=0.3414 CBC=0.4231 GCM=0.4027)
+[RX] #171 mode=0 T=25.73 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=-4 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3414 (CTR=0.3414 CBC=0.4230 GCM=0.4026)
+[RX] #172 mode=0 T=25.91 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=-3 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3413 (CTR=0.3413 CBC=0.4229 GCM=0.4025)
+[RX] #173 mode=0 T=25.51 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-2 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3412 (CTR=0.3412 CBC=0.4228 GCM=0.4024)
+[RX] #174 mode=0 T=25.30 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-8 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.027 perAuth=0.000 batt=1.00 mode=CTR cost=0.3411 (CTR=0.3411 CBC=0.4228 GCM=0.4023)
+[RX] #175 mode=0 T=26.17 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-4 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.026 perAuth=0.000 batt=1.00 mode=CTR cost=0.3410 (CTR=0.3410 CBC=0.4227 GCM=0.4023)
+[RX] #176 mode=0 T=26.15 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3440 (CTR=0.3440 CBC=0.4258 GCM=0.4054)
+[RX] #177 mode=0 T=26.08 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3439 (CTR=0.3439 CBC=0.4257 GCM=0.4053)
+[RX] #178 mode=0 T=25.45 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3438 (CTR=0.3438 CBC=0.4256 GCM=0.4052)
+[RX] #179 mode=0 T=25.59 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3437 (CTR=0.3437 CBC=0.4256 GCM=0.4051)
+[RX] #180 mode=0 T=26.24 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3436 (CTR=0.3436 CBC=0.4255 GCM=0.4050)
+[RX] #181 mode=0 T=25.92 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3435 (CTR=0.3435 CBC=0.4254 GCM=0.4049)
+[RX] #182 mode=0 T=25.96 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3434 (CTR=0.3434 CBC=0.4253 GCM=0.4048)
+[RX] #183 mode=0 T=25.85 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3434 (CTR=0.3434 CBC=0.4252 GCM=0.4047)
+[RX] #184 mode=0 T=25.80 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-6 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3433 (CTR=0.3433 CBC=0.4251 GCM=0.4046)
+[RX] #185 mode=0 T=25.35 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-4 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3432 (CTR=0.3432 CBC=0.4250 GCM=0.4045)
+[RX] #186 mode=0 T=25.72 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3431 (CTR=0.3431 CBC=0.4249 GCM=0.4044)
+[RX] #187 mode=0 T=25.95 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3430 (CTR=0.3430 CBC=0.4248 GCM=0.4044)
+[RX] #188 mode=0 T=26.12 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3429 (CTR=0.3429 CBC=0.4247 GCM=0.4043)
+[RX] #189 mode=0 T=25.98 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3429 (CTR=0.3429 CBC=0.4246 GCM=0.4042)
+[RX] #190 mode=0 T=25.62 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3428 (CTR=0.3428 CBC=0.4245 GCM=0.4041)
+[RX] #191 mode=0 T=25.63 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3427 (CTR=0.3427 CBC=0.4244 GCM=0.4040)
+[RX] #192 mode=0 T=25.78 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3455 (CTR=0.3455 CBC=0.4274 GCM=0.4069)
+[RX] #193 mode=0 T=25.51 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3454 (CTR=0.3454 CBC=0.4273 GCM=0.4069)
+[RX] #194 mode=0 T=25.98 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3453 (CTR=0.3453 CBC=0.4272 GCM=0.4068)
+[RX] #195 mode=0 T=25.48 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3452 (CTR=0.3452 CBC=0.4272 GCM=0.4067)
+[RX] #196 mode=0 T=25.64 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3451 (CTR=0.3451 CBC=0.4271 GCM=0.4066)
+[RX] #197 mode=0 T=25.56 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3450 (CTR=0.3450 CBC=0.4270 GCM=0.4065)
+[RX] #198 mode=0 T=25.95 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3449 (CTR=0.3449 CBC=0.4269 GCM=0.4064)
+[RX] #199 mode=0 T=25.75 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3448 (CTR=0.3448 CBC=0.4268 GCM=0.4063)
+[RX] #200 mode=0 T=26.00 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3448 (CTR=0.3448 CBC=0.4267 GCM=0.4062)
+[RX] #201 mode=0 T=25.33 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3447 (CTR=0.3447 CBC=0.4266 GCM=0.4061)
+[RX] #202 mode=0 T=25.33 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3446 (CTR=0.3446 CBC=0.4265 GCM=0.4060)
+[RX] #203 mode=0 T=26.16 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3445 (CTR=0.3445 CBC=0.4264 GCM=0.4059)
+[RX] #204 mode=0 T=26.28 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3444 (CTR=0.3444 CBC=0.4263 GCM=0.4058)
+[RX] #205 mode=0 T=25.80 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3443 (CTR=0.3443 CBC=0.4262 GCM=0.4057)
+[RX] #206 mode=0 T=25.92 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=-6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3442 (CTR=0.3442 CBC=0.4261 GCM=0.4057)
+[RX] #207 mode=0 T=25.49 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.034 perAuth=0.000 batt=1.00 mode=CTR cost=0.3469 (CTR=0.3469 CBC=0.4290 GCM=0.4084)
+[RX] #208 mode=0 T=25.98 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.034 perAuth=0.000 batt=1.00 mode=CTR cost=0.3468 (CTR=0.3468 CBC=0.4289 GCM=0.4084)
+[RX] #209 mode=0 T=25.98 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-8 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3467 (CTR=0.3467 CBC=0.4288 GCM=0.4083)
+[RX] #210 mode=0 T=25.65 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-2 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3466 (CTR=0.3466 CBC=0.4287 GCM=0.4082)
+[RX] #211 mode=0 T=26.24 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3465 (CTR=0.3465 CBC=0.4286 GCM=0.4081)
+[RX] #212 mode=0 T=25.43 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3464 (CTR=0.3464 CBC=0.4285 GCM=0.4080)
+[RX] #213 mode=0 T=26.19 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3463 (CTR=0.3463 CBC=0.4284 GCM=0.4079)
+[RX] #214 mode=0 T=25.89 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3463 (CTR=0.3463 CBC=0.4283 GCM=0.4078)
+[RX] #215 mode=0 T=25.63 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3462 (CTR=0.3462 CBC=0.4282 GCM=0.4077)
+[RX] #216 mode=0 T=25.70 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3461 (CTR=0.3461 CBC=0.4281 GCM=0.4076)
+[RX] #217 mode=0 T=26.16 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3460 (CTR=0.3460 CBC=0.4280 GCM=0.4075)
+[RX] #218 mode=0 T=25.55 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3459 (CTR=0.3459 CBC=0.4279 GCM=0.4074)
+[RX] #219 mode=0 T=25.47 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3458 (CTR=0.3458 CBC=0.4278 GCM=0.4073)
+[RX] #220 mode=0 T=25.59 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3457 (CTR=0.3457 CBC=0.4277 GCM=0.4072)
+[RX] #221 mode=0 T=25.73 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3457 (CTR=0.3457 CBC=0.4277 GCM=0.4072)
+[RX] #222 mode=0 T=25.58 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3456 (CTR=0.3456 CBC=0.4276 GCM=0.4071)
+[RX] #223 mode=0 T=25.99 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3455 (CTR=0.3455 CBC=0.4275 GCM=0.4070)
+[RX] #224 mode=0 T=26.07 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3454 (CTR=0.3454 CBC=0.4274 GCM=0.4069)
+[RX] #225 mode=0 T=25.93 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3453 (CTR=0.3453 CBC=0.4273 GCM=0.4068)
+[RX] #226 mode=0 T=25.97 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3452 (CTR=0.3452 CBC=0.4272 GCM=0.4067)
+[RX] #227 mode=0 T=26.29 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3452 (CTR=0.3452 CBC=0.4271 GCM=0.4066)
+[RX] #228 mode=0 T=25.40 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3451 (CTR=0.3451 CBC=0.4270 GCM=0.4065)
+[RX] #229 mode=0 T=25.99 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3450 (CTR=0.3450 CBC=0.4270 GCM=0.4065)
+[RX] #230 mode=0 T=25.67 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3449 (CTR=0.3449 CBC=0.4269 GCM=0.4064)
+[RX] #231 mode=0 T=25.98 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3449 (CTR=0.3449 CBC=0.4268 GCM=0.4063)
+[RX] #232 mode=0 T=26.28 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3448 (CTR=0.3448 CBC=0.4267 GCM=0.4062)
+[RX] #233 mode=0 T=25.98 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3447 (CTR=0.3447 CBC=0.4266 GCM=0.4061)
+[RX] #234 mode=0 T=26.06 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3446 (CTR=0.3446 CBC=0.4265 GCM=0.4061)
+[RX] #235 mode=0 T=25.77 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3445 (CTR=0.3445 CBC=0.4264 GCM=0.4060)
+[RX] #236 mode=0 T=25.40 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3445 (CTR=0.3445 CBC=0.4264 GCM=0.4059)
+[RX] #237 mode=0 T=25.77 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3444 (CTR=0.3444 CBC=0.4263 GCM=0.4058)
+[RX] #238 mode=0 T=26.05 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3443 (CTR=0.3443 CBC=0.4262 GCM=0.4057)
+[RX] #239 mode=0 T=25.34 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3442 (CTR=0.3442 CBC=0.4261 GCM=0.4057)
+[RX] #240 mode=0 T=25.77 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3442 (CTR=0.3442 CBC=0.4260 GCM=0.4056)
+[RX] #241 mode=0 T=25.99 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3441 (CTR=0.3441 CBC=0.4260 GCM=0.4055)
+[RX] #242 mode=0 T=25.44 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3440 (CTR=0.3440 CBC=0.4259 GCM=0.4054)
+[RX] #243 mode=0 T=25.43 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3439 (CTR=0.3439 CBC=0.4258 GCM=0.4053)
+[RX] #244 mode=0 T=26.00 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3439 (CTR=0.3439 CBC=0.4257 GCM=0.4053)
+[RX] #245 mode=0 T=25.72 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3438 (CTR=0.3438 CBC=0.4256 GCM=0.4052)
+[RX] #246 mode=0 T=25.85 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3437 (CTR=0.3437 CBC=0.4256 GCM=0.4051)
+[RX] #247 mode=0 T=25.77 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3437 (CTR=0.3437 CBC=0.4255 GCM=0.4050)
+[RX] #248 mode=0 T=25.95 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3436 (CTR=0.3436 CBC=0.4254 GCM=0.4050)
+[RX] #249 mode=0 T=25.95 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3435 (CTR=0.3435 CBC=0.4253 GCM=0.4049)
+[RX] #250 mode=0 T=26.00 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3434 (CTR=0.3434 CBC=0.4253 GCM=0.4048)
+[RX] #251 mode=0 T=25.56 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=2 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3434 (CTR=0.3434 CBC=0.4252 GCM=0.4047)
+[RX] #252 mode=0 T=25.41 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3433 (CTR=0.3433 CBC=0.4251 GCM=0.4047)
+[RX] #253 mode=0 T=26.17 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3432 (CTR=0.3432 CBC=0.4250 GCM=0.4046)
+[RX] #254 mode=0 T=26.13 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3432 (CTR=0.3432 CBC=0.4250 GCM=0.4045)
+[RX] #255 mode=0 T=25.34 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3454 (CTR=0.3454 CBC=0.4274 GCM=0.4069)
+[RX] #256 mode=0 T=25.64 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3454 (CTR=0.3454 CBC=0.4273 GCM=0.4068)
+[RX] #257 mode=0 T=26.01 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3453 (CTR=0.3453 CBC=0.4273 GCM=0.4068)
+[RX] #258 mode=0 T=25.94 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3452 (CTR=0.3452 CBC=0.4272 GCM=0.4067)
+[RX] #259 mode=0 T=25.61 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.032 perAuth=0.000 batt=1.00 mode=CTR cost=0.3451 (CTR=0.3451 CBC=0.4271 GCM=0.4066)
+[RX] #260 mode=0 T=25.83 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3451 (CTR=0.3451 CBC=0.4270 GCM=0.4065)
+[RX] #261 mode=0 T=26.24 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3450 (CTR=0.3450 CBC=0.4269 GCM=0.4065)
+[RX] #262 mode=0 T=26.10 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3449 (CTR=0.3449 CBC=0.4269 GCM=0.4064)
+[RX] #263 mode=0 T=25.63 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3449 (CTR=0.3449 CBC=0.4268 GCM=0.4063)
+[RX] #264 mode=0 T=25.92 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3448 (CTR=0.3448 CBC=0.4267 GCM=0.4062)
+[RX] #265 mode=0 T=25.80 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3447 (CTR=0.3447 CBC=0.4266 GCM=0.4062)
+[RX] #266 mode=0 T=25.77 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3446 (CTR=0.3446 CBC=0.4266 GCM=0.4061)
+[RX] #267 mode=0 T=25.81 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3446 (CTR=0.3446 CBC=0.4265 GCM=0.4060)
+[RX] #268 mode=0 T=26.29 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3445 (CTR=0.3445 CBC=0.4264 GCM=0.4059)
+[RX] #269 mode=0 T=25.97 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3444 (CTR=0.3444 CBC=0.4263 GCM=0.4059)
+[RX] #270 mode=0 T=25.39 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.031 perAuth=0.000 batt=1.00 mode=CTR cost=0.3444 (CTR=0.3444 CBC=0.4263 GCM=0.4058)
+[RX] #271 mode=0 T=25.92 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=3 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3443 (CTR=0.3443 CBC=0.4262 GCM=0.4057)
+[RX] #272 mode=0 T=25.47 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=-1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3442 (CTR=0.3442 CBC=0.4261 GCM=0.4056)
+[RX] #273 mode=0 T=25.91 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=0 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3442 (CTR=0.3442 CBC=0.4260 GCM=0.4056)
+[RX] #274 mode=0 T=26.12 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3441 (CTR=0.3441 CBC=0.4260 GCM=0.4055)
+[RX] #275 mode=0 T=26.21 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3440 (CTR=0.3440 CBC=0.4259 GCM=0.4054)
+[RX] #276 mode=0 T=25.70 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3440 (CTR=0.3440 CBC=0.4258 GCM=0.4054)
+[RX] #277 mode=0 T=26.16 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3439 (CTR=0.3439 CBC=0.4258 GCM=0.4053)
+[RX] #278 mode=0 T=25.33 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3438 (CTR=0.3438 CBC=0.4257 GCM=0.4052)
+[RX] #279 mode=0 T=25.62 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=6 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3438 (CTR=0.3438 CBC=0.4256 GCM=0.4052)
+[RX] #280 mode=0 T=26.29 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=7 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3437 (CTR=0.3437 CBC=0.4255 GCM=0.4051)
+[RX] #281 mode=0 T=25.52 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3436 (CTR=0.3436 CBC=0.4255 GCM=0.4050)
+[RX] #282 mode=0 T=25.94 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.030 perAuth=0.000 batt=1.00 mode=CTR cost=0.3436 (CTR=0.3436 CBC=0.4254 GCM=0.4049)
+[RX] #283 mode=0 T=26.13 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3435 (CTR=0.3435 CBC=0.4253 GCM=0.4049)
+[RX] #284 mode=0 T=25.42 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=8 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3434 (CTR=0.3434 CBC=0.4253 GCM=0.4048)
+[RX] #285 mode=0 T=26.07 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3434 (CTR=0.3434 CBC=0.4252 GCM=0.4047)
+[RX] #286 mode=0 T=25.83 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3433 (CTR=0.3433 CBC=0.4251 GCM=0.4047)
+[RX] #287 mode=0 T=25.70 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3433 (CTR=0.3433 CBC=0.4251 GCM=0.4046)
+[RX] #288 mode=0 T=25.54 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3432 (CTR=0.3432 CBC=0.4250 GCM=0.4045)
+[RX] #289 mode=0 T=25.51 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3431 (CTR=0.3431 CBC=0.4249 GCM=0.4045)
+[RX] #290 mode=0 T=26.29 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3431 (CTR=0.3431 CBC=0.4249 GCM=0.4044)
+[RX] #291 mode=0 T=26.14 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3430 (CTR=0.3430 CBC=0.4248 GCM=0.4044)
+[RX] #292 mode=0 T=26.12 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=7 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3430 (CTR=0.3430 CBC=0.4247 GCM=0.4043)
+[RX] #293 mode=0 T=26.28 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=7 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3429 (CTR=0.3429 CBC=0.4247 GCM=0.4042)
+[RX] #294 mode=0 T=25.36 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=7 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3428 (CTR=0.3428 CBC=0.4246 GCM=0.4042)
+[RX] #295 mode=0 T=25.42 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=1 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.029 perAuth=0.000 batt=1.00 mode=CTR cost=0.3428 (CTR=0.3428 CBC=0.4245 GCM=0.4041)
+[RX] #296 mode=0 T=26.00 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=5 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3427 (CTR=0.3427 CBC=0.4245 GCM=0.4040)
+[RX] #297 mode=0 T=25.52 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=6 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3427 (CTR=0.3427 CBC=0.4244 GCM=0.4040)
+[RX] #298 mode=0 T=25.39 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=3 per=0.027 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.028 perAuth=0.000 batt=1.00 mode=CTR cost=0.3426 (CTR=0.3426 CBC=0.4243 GCM=0.4039)
+[RX] #299 mode=0 T=25.79 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=-5 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3467 (CTR=0.3467 CBC=0.4288 GCM=0.4082)
+[RX] #300 mode=0 T=25.63 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=0 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3466 (CTR=0.3466 CBC=0.4287 GCM=0.4082)
+[RX] #301 mode=0 T=26.18 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3465 (CTR=0.3465 CBC=0.4286 GCM=0.4081)
+[RX] #302 mode=0 T=25.48 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3465 (CTR=0.3465 CBC=0.4285 GCM=0.4080)
+[RX] #303 mode=0 T=25.82 P=0.00 lat=22.7592 lng=75.8255
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3464 (CTR=0.3464 CBC=0.4285 GCM=0.4079)
+[RX] #304 mode=0 T=25.42 P=0.00 lat=22.7592 lng=75.8255
+[RX] ACK sent snr=4 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3463 (CTR=0.3463 CBC=0.4284 GCM=0.4079)
+[RX] #305 mode=0 T=25.87 P=0.00 lat=22.7591 lng=75.8256
+[RX] ACK sent snr=5 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3463 (CTR=0.3463 CBC=0.4283 GCM=0.4078)
+[RX] #306 mode=0 T=25.57 P=0.00 lat=22.7591 lng=75.8256
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3462 (CTR=0.3462 CBC=0.4282 GCM=0.4077)
+[RX] #307 mode=0 T=26.24 P=0.00 lat=22.7591 lng=75.8256
+[RX] ACK sent snr=-2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3461 (CTR=0.3461 CBC=0.4282 GCM=0.4077)
+[RX] #308 mode=0 T=25.57 P=0.00 lat=22.7591 lng=75.8256
+[RX] ACK sent snr=1 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3461 (CTR=0.3461 CBC=0.4281 GCM=0.4076)
+[RX] #309 mode=0 T=25.72 P=0.00 lat=22.7591 lng=75.8256
+[RX] ACK sent snr=-2 per=0.031 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.033 perAuth=0.000 batt=1.00 mode=CTR cost=0.3460 (CTR=0.3460 CBC=0.4280 GCM=0.4075)
+[RX] #310 mode=0 T=25.75 P=0.00 lat=22.7592 lng=75.8255
+[RX] ACK sent snr=-3 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.035 perAuth=0.000 batt=1.00 mode=CTR cost=0.3480 (CTR=0.3480 CBC=0.4301 GCM=0.4096)
+[RX] #311 mode=0 T=25.63 P=0.00 lat=22.7592 lng=75.8255
+[RX] ACK sent snr=-6 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.035 perAuth=0.000 batt=1.00 mode=CTR cost=0.3479 (CTR=0.3479 CBC=0.4301 GCM=0.4095)
+[RX] #312 mode=0 T=25.40 P=0.00 lat=22.7592 lng=75.8255
+[RX] ACK sent snr=-4 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.037 perAuth=0.000 batt=1.00 mode=CTR cost=0.3498 (CTR=0.3498 CBC=0.4322 GCM=0.4116)
+[RX] #313 mode=0 T=25.39 P=0.00 lat=22.7592 lng=75.8255
+[RX] ACK sent snr=-6 per=0.035 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.037 perAuth=0.000 batt=1.00 mode=CTR cost=0.3497 (CTR=0.3497 CBC=0.4321 GCM=0.4115)
+[RX] #314 mode=0 T=26.25 P=0.00 lat=22.7592 lng=75.8255
+[RX] ACK sent snr=-4 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.040 perAuth=0.000 batt=1.00 mode=CTR cost=0.3517 (CTR=0.3517 CBC=0.4342 GCM=0.4135)
+[RX] #315 mode=0 T=25.80 P=0.00 lat=22.7592 lng=75.8255
+[RX] ACK sent snr=0 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.040 perAuth=0.000 batt=1.00 mode=CTR cost=0.3516 (CTR=0.3516 CBC=0.4341 GCM=0.4135)
+[RX] #316 mode=0 T=25.90 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=2 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.039 perAuth=0.000 batt=1.00 mode=CTR cost=0.3515 (CTR=0.3515 CBC=0.4340 GCM=0.4134)
+[RX] #317 mode=0 T=25.68 P=0.00 lat=22.7593 lng=75.8255
+[RX] ACK sent snr=0 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.039 perAuth=0.000 batt=1.00 mode=CTR cost=0.3514 (CTR=0.3514 CBC=0.4339 GCM=0.4133)
+[RX] #318 mode=0 T=26.17 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.039 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.039 perAuth=0.000 batt=1.00 mode=CTR cost=0.3514 (CTR=0.3514 CBC=0.4338 GCM=0.4132)
+[RX] #319 mode=0 T=26.03 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3553 (CTR=0.3553 CBC=0.4380 GCM=0.4173)
+[RX] #320 mode=0 T=26.14 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-3 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3552 (CTR=0.3552 CBC=0.4379 GCM=0.4172)
+[RX] #321 mode=0 T=26.06 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3551 (CTR=0.3551 CBC=0.4378 GCM=0.4171)
+[RX] #322 mode=0 T=26.26 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.043 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.044 perAuth=0.000 batt=1.00 mode=CTR cost=0.3550 (CTR=0.3550 CBC=0.4377 GCM=0.4170)
+[RX] #323 mode=0 T=25.78 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.046 perAuth=0.000 batt=1.00 mode=CTR cost=0.3569 (CTR=0.3569 CBC=0.4398 GCM=0.4190)
+[RX] #324 mode=0 T=26.15 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-4 per=0.047 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.048 perAuth=0.000 batt=1.00 mode=CTR cost=0.3588 (CTR=0.3588 CBC=0.4418 GCM=0.4210)
+[RX] #325 mode=0 T=25.75 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=-5 per=0.055 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.053 perAuth=0.000 batt=1.00 mode=CTR cost=0.3626 (CTR=0.3626 CBC=0.4460 GCM=0.4251)
+[RX] #326 mode=0 T=25.95 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=-5 per=0.051 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.053 perAuth=0.000 batt=1.00 mode=CTR cost=0.3625 (CTR=0.3625 CBC=0.4458 GCM=0.4250)
+[RX] #327 mode=0 T=26.16 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=-8 per=0.059 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.058 perAuth=0.000 batt=1.00 mode=CTR cost=0.3663 (CTR=0.3663 CBC=0.4500 GCM=0.4291)
+[RX] #328 mode=0 T=25.36 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=-6 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.065 perAuth=0.000 batt=1.00 mode=CTR cost=0.3721 (CTR=0.3721 CBC=0.4562 GCM=0.4352)
+[RX] #329 mode=0 T=25.33 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=-9 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-9.0 perRadio=0.064 perAuth=0.000 batt=1.00 mode=CTR cost=0.3720 (CTR=0.3720 CBC=0.4561 GCM=0.4351)
+[RX] #330 mode=0 T=26.21 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.064 perAuth=0.000 batt=1.00 mode=CTR cost=0.3718 (CTR=0.3718 CBC=0.4560 GCM=0.4349)
+[RX] #331 mode=0 T=26.00 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.064 perAuth=0.000 batt=1.00 mode=CTR cost=0.3717 (CTR=0.3717 CBC=0.4558 GCM=0.4348)
+[RX] #332 mode=0 T=25.87 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.064 perAuth=0.000 batt=1.00 mode=CTR cost=0.3716 (CTR=0.3716 CBC=0.4557 GCM=0.4347)
+[RX] #333 mode=0 T=25.42 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.064 perAuth=0.000 batt=1.00 mode=CTR cost=0.3715 (CTR=0.3715 CBC=0.4556 GCM=0.4345)
+[RX] #334 mode=0 T=25.57 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.064 perAuth=0.000 batt=1.00 mode=CTR cost=0.3713 (CTR=0.3713 CBC=0.4554 GCM=0.4344)
+[RX] #335 mode=0 T=25.48 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.064 perAuth=0.000 batt=1.00 mode=CTR cost=0.3712 (CTR=0.3712 CBC=0.4553 GCM=0.4343)
+[RX] #336 mode=0 T=25.51 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.062 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.063 perAuth=0.000 batt=1.00 mode=CTR cost=0.3711 (CTR=0.3711 CBC=0.4552 GCM=0.4341)
+[RX] #337 mode=0 T=25.48 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=-8 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.082 perAuth=0.000 batt=1.00 mode=CTR cost=0.3865 (CTR=0.3865 CBC=0.4719 GCM=0.4505)
+[RX] #338 mode=0 T=25.79 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=-8 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.082 perAuth=0.000 batt=1.00 mode=CTR cost=0.3864 (CTR=0.3864 CBC=0.4717 GCM=0.4504)
+[RX] #339 mode=0 T=25.32 P=0.00 lat=22.7592 lng=75.8256
+[RX] ACK sent snr=-3 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.082 perAuth=0.000 batt=1.00 mode=CTR cost=0.3862 (CTR=0.3862 CBC=0.4715 GCM=0.4502)
+[RX] #340 mode=0 T=25.33 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-4 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.081 perAuth=0.000 batt=1.00 mode=CTR cost=0.3860 (CTR=0.3860 CBC=0.4713 GCM=0.4500)
+[RX] #341 mode=0 T=26.04 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=0 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.081 perAuth=0.000 batt=1.00 mode=CTR cost=0.3859 (CTR=0.3859 CBC=0.4712 GCM=0.4499)
+[RX] #342 mode=0 T=25.39 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-4 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.081 perAuth=0.000 batt=1.00 mode=CTR cost=0.3857 (CTR=0.3857 CBC=0.4710 GCM=0.4497)
+[RX] #343 mode=0 T=26.21 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=1 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.081 perAuth=0.000 batt=1.00 mode=CTR cost=0.3856 (CTR=0.3856 CBC=0.4708 GCM=0.4495)
+[RX] #344 mode=0 T=26.09 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=0 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.081 perAuth=0.000 batt=1.00 mode=CTR cost=0.3854 (CTR=0.3854 CBC=0.4707 GCM=0.4494)
+[RX] #345 mode=0 T=25.64 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-3 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.080 perAuth=0.000 batt=1.00 mode=CTR cost=0.3853 (CTR=0.3853 CBC=0.4705 GCM=0.4492)
+[RX] #346 mode=0 T=26.01 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.080 perAuth=0.000 batt=1.00 mode=CTR cost=0.3851 (CTR=0.3851 CBC=0.4703 GCM=0.4490)
+[RX] #347 mode=0 T=25.90 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-6 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.080 perAuth=0.000 batt=1.00 mode=CTR cost=0.3849 (CTR=0.3849 CBC=0.4702 GCM=0.4489)
+[RX] #348 mode=0 T=26.19 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.080 perAuth=0.000 batt=1.00 mode=CTR cost=0.3848 (CTR=0.3848 CBC=0.4700 GCM=0.4487)
+[RX] #349 mode=0 T=25.42 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=1 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.080 perAuth=0.000 batt=1.00 mode=CTR cost=0.3846 (CTR=0.3846 CBC=0.4698 GCM=0.4485)
+[RX] #350 mode=0 T=26.14 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=1 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.080 perAuth=0.000 batt=1.00 mode=CTR cost=0.3845 (CTR=0.3845 CBC=0.4697 GCM=0.4484)
+[RX] #351 mode=0 T=25.46 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=5 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.079 perAuth=0.000 batt=1.00 mode=CTR cost=0.3843 (CTR=0.3843 CBC=0.4695 GCM=0.4482)
+[RX] #352 mode=0 T=25.89 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-2 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.079 perAuth=0.000 batt=1.00 mode=CTR cost=0.3842 (CTR=0.3842 CBC=0.4694 GCM=0.4481)
+[RX] #353 mode=0 T=25.77 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.079 perAuth=0.000 batt=1.00 mode=CTR cost=0.3840 (CTR=0.3840 CBC=0.4692 GCM=0.4479)
+[RX] #354 mode=0 T=25.68 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.079 perAuth=0.000 batt=1.00 mode=CTR cost=0.3839 (CTR=0.3839 CBC=0.4690 GCM=0.4477)
+[RX] #355 mode=0 T=26.24 P=0.00 lat=22.7596 lng=75.8256
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.079 perAuth=0.000 batt=1.00 mode=CTR cost=0.3837 (CTR=0.3837 CBC=0.4689 GCM=0.4476)
+[RX] #356 mode=0 T=25.77 P=0.00 lat=22.7596 lng=75.8256
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3836 (CTR=0.3836 CBC=0.4687 GCM=0.4474)
+[RX] #357 mode=0 T=25.41 P=0.00 lat=22.7596 lng=75.8256
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3835 (CTR=0.3835 CBC=0.4686 GCM=0.4473)
+[RX] #358 mode=0 T=25.54 P=0.00 lat=22.7597 lng=75.8255
+[RX] ACK sent snr=10 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3833 (CTR=0.3833 CBC=0.4684 GCM=0.4471)
+[RX] #359 mode=0 T=25.61 P=0.00 lat=22.7597 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3832 (CTR=0.3832 CBC=0.4682 GCM=0.4470)
+[RX] #360 mode=0 T=25.80 P=0.00 lat=22.7598 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3830 (CTR=0.3830 CBC=0.4681 GCM=0.4468)
+[RX] #361 mode=0 T=25.86 P=0.00 lat=22.7598 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3829 (CTR=0.3829 CBC=0.4679 GCM=0.4467)
+[RX] #362 mode=0 T=25.87 P=0.00 lat=22.7599 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3827 (CTR=0.3827 CBC=0.4678 GCM=0.4465)
+[RX] #363 mode=0 T=25.72 P=0.00 lat=22.7599 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3826 (CTR=0.3826 CBC=0.4676 GCM=0.4464)
+[RX] #364 mode=0 T=26.22 P=0.00 lat=22.7600 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3824 (CTR=0.3824 CBC=0.4675 GCM=0.4462)
+[RX] #365 mode=0 T=25.76 P=0.00 lat=22.7600 lng=75.8255
+[RX] ACK sent snr=10 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3823 (CTR=0.3823 CBC=0.4673 GCM=0.4461)
+[RX] #366 mode=0 T=26.29 P=0.00 lat=22.7601 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3822 (CTR=0.3822 CBC=0.4672 GCM=0.4459)
+[RX] #367 mode=0 T=25.96 P=0.00 lat=22.7601 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3820 (CTR=0.3820 CBC=0.4670 GCM=0.4458)
+[RX] #368 mode=0 T=25.35 P=0.00 lat=22.7601 lng=75.8255
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3819 (CTR=0.3819 CBC=0.4669 GCM=0.4456)
+[RX] #369 mode=0 T=25.49 P=0.00 lat=22.7601 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3818 (CTR=0.3818 CBC=0.4667 GCM=0.4455)
+[RX] #370 mode=0 T=25.86 P=0.00 lat=22.7601 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3816 (CTR=0.3816 CBC=0.4666 GCM=0.4453)
+[RX] #371 mode=0 T=26.01 P=0.00 lat=22.7601 lng=75.8255
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3815 (CTR=0.3815 CBC=0.4664 GCM=0.4452)
+[RX] #372 mode=0 T=25.76 P=0.00 lat=22.7601 lng=75.8255
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3813 (CTR=0.3813 CBC=0.4663 GCM=0.4450)
+[RX] #373 mode=0 T=26.09 P=0.00 lat=22.7601 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3812 (CTR=0.3812 CBC=0.4661 GCM=0.4449)
+[RX] #374 mode=0 T=25.48 P=0.00 lat=22.7597 lng=75.8255
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3811 (CTR=0.3811 CBC=0.4660 GCM=0.4447)
+[RX] #375 mode=0 T=25.35 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3809 (CTR=0.3809 CBC=0.4658 GCM=0.4446)
+[RX] #376 mode=0 T=25.87 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3808 (CTR=0.3808 CBC=0.4657 GCM=0.4445)
+[RX] #377 mode=0 T=26.13 P=0.00 lat=22.7596 lng=75.8256
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3807 (CTR=0.3807 CBC=0.4655 GCM=0.4443)
+[RX] #378 mode=0 T=26.12 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3805 (CTR=0.3805 CBC=0.4654 GCM=0.4442)
+[RX] #379 mode=0 T=25.34 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3804 (CTR=0.3804 CBC=0.4652 GCM=0.4440)
+[RX] #380 mode=0 T=25.52 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3803 (CTR=0.3803 CBC=0.4651 GCM=0.4439)
+[RX] #381 mode=0 T=25.55 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3801 (CTR=0.3801 CBC=0.4650 GCM=0.4437)
+[RX] #382 mode=0 T=25.55 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3800 (CTR=0.3800 CBC=0.4648 GCM=0.4436)
+[RX] #383 mode=0 T=25.92 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3799 (CTR=0.3799 CBC=0.4647 GCM=0.4435)
+[RX] #384 mode=0 T=25.67 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3797 (CTR=0.3797 CBC=0.4645 GCM=0.4433)
+[RX] #385 mode=0 T=26.13 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3796 (CTR=0.3796 CBC=0.4644 GCM=0.4432)
+[RX] #386 mode=0 T=25.81 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3795 (CTR=0.3795 CBC=0.4643 GCM=0.4431)
+[RX] #387 mode=0 T=25.49 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3794 (CTR=0.3794 CBC=0.4641 GCM=0.4429)
+[RX] #388 mode=0 T=26.26 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3792 (CTR=0.3792 CBC=0.4640 GCM=0.4428)
+[RX] #389 mode=0 T=25.95 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3791 (CTR=0.3791 CBC=0.4638 GCM=0.4427)
+[RX] #390 mode=0 T=25.98 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3790 (CTR=0.3790 CBC=0.4637 GCM=0.4425)
+[RX] #391 mode=0 T=26.07 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=8 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3789 (CTR=0.3789 CBC=0.4636 GCM=0.4424)
+[RX] #392 mode=0 T=25.31 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=4 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3787 (CTR=0.3787 CBC=0.4634 GCM=0.4423)
+[RX] #393 mode=0 T=25.37 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3786 (CTR=0.3786 CBC=0.4633 GCM=0.4421)
+[RX] #394 mode=0 T=26.20 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=7 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3785 (CTR=0.3785 CBC=0.4632 GCM=0.4420)
+[RX] #395 mode=0 T=25.86 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=8 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3784 (CTR=0.3784 CBC=0.4630 GCM=0.4419)
+[RX] #396 mode=0 T=25.55 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3782 (CTR=0.3782 CBC=0.4629 GCM=0.4417)
+[RX] #397 mode=0 T=25.53 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=2 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3781 (CTR=0.3781 CBC=0.4628 GCM=0.4416)
+[RX] #398 mode=0 T=25.68 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3780 (CTR=0.3780 CBC=0.4626 GCM=0.4415)
+[RX] #399 mode=0 T=25.87 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=5 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3779 (CTR=0.3779 CBC=0.4625 GCM=0.4413)
+[RX] #400 mode=0 T=26.27 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=7 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.071 perAuth=0.000 batt=1.00 mode=CTR cost=0.3777 (CTR=0.3777 CBC=0.4624 GCM=0.4412)
+[RX] #401 mode=0 T=25.46 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=6 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=6.0 perRadio=0.071 perAuth=0.000 batt=1.00 mode=CTR cost=0.3776 (CTR=0.3776 CBC=0.4622 GCM=0.4411)
+[RX] #402 mode=0 T=25.64 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.071 perAuth=0.000 batt=1.00 mode=CTR cost=0.3775 (CTR=0.3775 CBC=0.4621 GCM=0.4410)
+[RX] #403 mode=0 T=26.09 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.071 perAuth=0.000 batt=1.00 mode=CTR cost=0.3774 (CTR=0.3774 CBC=0.4620 GCM=0.4408)
+[RX] #404 mode=0 T=25.83 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-5 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3789 (CTR=0.3789 CBC=0.4637 GCM=0.4425)
+[RX] #405 mode=0 T=25.92 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-6 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3788 (CTR=0.3788 CBC=0.4635 GCM=0.4424)
+[RX] #406 mode=0 T=25.59 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-5 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.073 perAuth=0.000 batt=1.00 mode=CTR cost=0.3787 (CTR=0.3787 CBC=0.4634 GCM=0.4422)
+[RX] #407 mode=0 T=25.47 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-1 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3786 (CTR=0.3786 CBC=0.4633 GCM=0.4421)
+[RX] #408 mode=0 T=25.93 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3785 (CTR=0.3785 CBC=0.4631 GCM=0.4420)
+[RX] #409 mode=0 T=25.32 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.070 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.072 perAuth=0.000 batt=1.00 mode=CTR cost=0.3783 (CTR=0.3783 CBC=0.4630 GCM=0.4418)
+[RX] #410 mode=0 T=25.52 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3799 (CTR=0.3799 CBC=0.4647 GCM=0.4435)
+[RX] #411 mode=0 T=25.40 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3798 (CTR=0.3798 CBC=0.4645 GCM=0.4433)
+[RX] #412 mode=0 T=25.86 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-1 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3796 (CTR=0.3796 CBC=0.4644 GCM=0.4432)
+[RX] #413 mode=0 T=25.97 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.074 perAuth=0.000 batt=1.00 mode=CTR cost=0.3795 (CTR=0.3795 CBC=0.4643 GCM=0.4431)
+[RX] #414 mode=0 T=26.25 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-9.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3810 (CTR=0.3810 CBC=0.4659 GCM=0.4447)
+[RX] #415 mode=0 T=25.43 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-5 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3809 (CTR=0.3809 CBC=0.4658 GCM=0.4446)
+[RX] #416 mode=0 T=25.80 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-5 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.083 perAuth=0.000 batt=1.00 mode=CTR cost=0.3874 (CTR=0.3874 CBC=0.4728 GCM=0.4514)
+[RX] #417 mode=0 T=25.75 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-5 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.083 perAuth=0.000 batt=1.00 mode=CTR cost=0.3872 (CTR=0.3872 CBC=0.4727 GCM=0.4513)
+[RX] #418 mode=0 T=25.91 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-5 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.083 perAuth=0.000 batt=1.00 mode=CTR cost=0.3871 (CTR=0.3871 CBC=0.4725 GCM=0.4512)
+[RX] #419 mode=0 T=26.05 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-5 per=0.082 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.083 perAuth=0.000 batt=1.00 mode=CTR cost=0.3870 (CTR=0.3870 CBC=0.4724 GCM=0.4510)
+[RX] #420 mode=0 T=25.39 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.086 perAuth=0.000 batt=1.00 mode=CTR cost=0.3901 (CTR=0.3901 CBC=0.4758 GCM=0.4544)
+[RX] #421 mode=0 T=26.19 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.086 perAuth=0.000 batt=1.00 mode=CTR cost=0.3900 (CTR=0.3900 CBC=0.4756 GCM=0.4542)
+[RX] #422 mode=0 T=25.69 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=2 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.088 perAuth=0.000 batt=1.00 mode=CTR cost=0.3915 (CTR=0.3915 CBC=0.4772 GCM=0.4558)
+[RX] #423 mode=0 T=25.34 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.088 perAuth=0.000 batt=1.00 mode=CTR cost=0.3913 (CTR=0.3913 CBC=0.4771 GCM=0.4556)
+[RX] #424 mode=0 T=25.78 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=1 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.088 perAuth=0.000 batt=1.00 mode=CTR cost=0.3912 (CTR=0.3912 CBC=0.4769 GCM=0.4555)
+[RX] #425 mode=0 T=25.57 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3910 (CTR=0.3910 CBC=0.4768 GCM=0.4553)
+[RX] #426 mode=0 T=26.04 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3909 (CTR=0.3909 CBC=0.4766 GCM=0.4552)
+[RX] #427 mode=0 T=25.69 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3908 (CTR=0.3908 CBC=0.4765 GCM=0.4550)
+[RX] #428 mode=0 T=25.63 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=2 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3906 (CTR=0.3906 CBC=0.4763 GCM=0.4549)
+[RX] #429 mode=0 T=25.44 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3905 (CTR=0.3905 CBC=0.4762 GCM=0.4547)
+[RX] #430 mode=0 T=25.71 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3903 (CTR=0.3903 CBC=0.4760 GCM=0.4546)
+[RX] #431 mode=0 T=25.97 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=0 per=0.090 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.088 perAuth=0.000 batt=1.00 mode=CTR cost=0.3918 (CTR=0.3918 CBC=0.4776 GCM=0.4562)
+[RX] #432 mode=0 T=26.21 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=8 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.088 perAuth=0.000 batt=1.00 mode=CTR cost=0.3917 (CTR=0.3917 CBC=0.4775 GCM=0.4560)
+[RX] #433 mode=0 T=25.89 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=7 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.088 perAuth=0.000 batt=1.00 mode=CTR cost=0.3915 (CTR=0.3915 CBC=0.4773 GCM=0.4559)
+[RX] #434 mode=0 T=26.04 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-5 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.088 perAuth=0.000 batt=1.00 mode=CTR cost=0.3914 (CTR=0.3914 CBC=0.4772 GCM=0.4557)
+[RX] #435 mode=0 T=25.36 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=9 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.088 perAuth=0.000 batt=1.00 mode=CTR cost=0.3912 (CTR=0.3912 CBC=0.4770 GCM=0.4556)
+[RX] #436 mode=0 T=25.40 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=8 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3911 (CTR=0.3911 CBC=0.4768 GCM=0.4554)
+[RX] #437 mode=0 T=25.63 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3910 (CTR=0.3910 CBC=0.4767 GCM=0.4553)
+[RX] #438 mode=0 T=25.42 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=10 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3908 (CTR=0.3908 CBC=0.4765 GCM=0.4551)
+[RX] #439 mode=0 T=26.13 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3907 (CTR=0.3907 CBC=0.4764 GCM=0.4550)
+[RX] #440 mode=0 T=26.17 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=10 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3905 (CTR=0.3905 CBC=0.4762 GCM=0.4548)
+[RX] #441 mode=0 T=25.47 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=10 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.087 perAuth=0.000 batt=1.00 mode=CTR cost=0.3904 (CTR=0.3904 CBC=0.4761 GCM=0.4547)
+[RX] #442 mode=0 T=26.14 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=10 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.086 perAuth=0.000 batt=1.00 mode=CTR cost=0.3903 (CTR=0.3903 CBC=0.4760 GCM=0.4545)
+[RX] #443 mode=0 T=26.01 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.086 perAuth=0.000 batt=1.00 mode=CTR cost=0.3901 (CTR=0.3901 CBC=0.4758 GCM=0.4544)
+[RX] #444 mode=0 T=26.02 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=9 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.086 perAuth=0.000 batt=1.00 mode=CTR cost=0.3900 (CTR=0.3900 CBC=0.4757 GCM=0.4542)
+[RX] #445 mode=0 T=25.72 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=10 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3832 (CTR=0.3832 CBC=0.4683 GCM=0.4470)
+[RX] #446 mode=0 T=25.37 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3831 (CTR=0.3831 CBC=0.4682 GCM=0.4469)
+[RX] #447 mode=0 T=25.99 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=10 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3830 (CTR=0.3830 CBC=0.4681 GCM=0.4468)
+[RX] #448 mode=0 T=25.80 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=10 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3829 (CTR=0.3829 CBC=0.4680 GCM=0.4467)
+[RX] #449 mode=0 T=26.23 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=8 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.078 perAuth=0.000 batt=1.00 mode=CTR cost=0.3828 (CTR=0.3828 CBC=0.4678 GCM=0.4466)
+[RX] #450 mode=0 T=25.48 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3827 (CTR=0.3827 CBC=0.4677 GCM=0.4465)
+[RX] #451 mode=0 T=25.73 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=10 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3826 (CTR=0.3826 CBC=0.4676 GCM=0.4464)
+[RX] #452 mode=0 T=26.10 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3825 (CTR=0.3825 CBC=0.4675 GCM=0.4463)
+[RX] #453 mode=0 T=25.35 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3824 (CTR=0.3824 CBC=0.4674 GCM=0.4462)
+[RX] #454 mode=0 T=25.35 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3823 (CTR=0.3823 CBC=0.4673 GCM=0.4461)
+[RX] #455 mode=0 T=26.19 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=0 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3822 (CTR=0.3822 CBC=0.4672 GCM=0.4460)
+[RX] #456 mode=0 T=26.04 P=0.00 lat=22.7592 lng=75.8257
+[RX] ACK sent snr=8 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3821 (CTR=0.3821 CBC=0.4671 GCM=0.4458)
+[RX] #457 mode=0 T=25.96 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=8 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3820 (CTR=0.3820 CBC=0.4670 GCM=0.4457)
+[RX] #458 mode=0 T=25.72 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3819 (CTR=0.3819 CBC=0.4669 GCM=0.4456)
+[RX] #459 mode=0 T=25.43 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3818 (CTR=0.3818 CBC=0.4668 GCM=0.4455)
+[RX] #460 mode=0 T=26.04 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3817 (CTR=0.3817 CBC=0.4667 GCM=0.4454)
+[RX] #461 mode=0 T=25.47 P=0.00 lat=22.7593 lng=75.8257
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3816 (CTR=0.3816 CBC=0.4666 GCM=0.4453)
+[RX] #462 mode=0 T=25.30 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3815 (CTR=0.3815 CBC=0.4665 GCM=0.4452)
+[RX] #463 mode=0 T=25.51 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3814 (CTR=0.3814 CBC=0.4664 GCM=0.4451)
+[RX] #464 mode=0 T=25.83 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=10 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3813 (CTR=0.3813 CBC=0.4663 GCM=0.4450)
+[RX] #465 mode=0 T=25.45 P=0.00 lat=22.7594 lng=75.8255
+[RX] ACK sent snr=8 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3812 (CTR=0.3812 CBC=0.4662 GCM=0.4449)
+[RX] #466 mode=0 T=25.75 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=8 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3811 (CTR=0.3811 CBC=0.4661 GCM=0.4448)
+[RX] #467 mode=0 T=25.69 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3823 (CTR=0.3823 CBC=0.4673 GCM=0.4461)
+[RX] #468 mode=0 T=25.49 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=9 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3822 (CTR=0.3822 CBC=0.4672 GCM=0.4460)
+[RX] #469 mode=0 T=26.23 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=8 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3821 (CTR=0.3821 CBC=0.4671 GCM=0.4459)
+[RX] #470 mode=0 T=25.44 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=8 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3820 (CTR=0.3820 CBC=0.4670 GCM=0.4458)
+[RX] #471 mode=0 T=25.57 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=7 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3819 (CTR=0.3819 CBC=0.4669 GCM=0.4456)
+[RX] #472 mode=0 T=26.29 P=0.00 lat=22.7596 lng=75.8254
+[RX] ACK sent snr=8 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3818 (CTR=0.3818 CBC=0.4668 GCM=0.4455)
+[RX] #473 mode=0 T=25.94 P=0.00 lat=22.7596 lng=75.8254
+[RX] ACK sent snr=4 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3817 (CTR=0.3817 CBC=0.4667 GCM=0.4454)
+[RX] #474 mode=0 T=25.93 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3816 (CTR=0.3816 CBC=0.4666 GCM=0.4453)
+[RX] #475 mode=0 T=25.30 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=7 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3815 (CTR=0.3815 CBC=0.4665 GCM=0.4452)
+[RX] #476 mode=0 T=25.92 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3815 (CTR=0.3815 CBC=0.4664 GCM=0.4451)
+[RX] #477 mode=0 T=25.34 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=8 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3814 (CTR=0.3814 CBC=0.4663 GCM=0.4450)
+[RX] #478 mode=0 T=26.20 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=8 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3813 (CTR=0.3813 CBC=0.4662 GCM=0.4449)
+[RX] #479 mode=0 T=25.82 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=7 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3812 (CTR=0.3812 CBC=0.4661 GCM=0.4448)
+[RX] #480 mode=0 T=25.36 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3811 (CTR=0.3811 CBC=0.4660 GCM=0.4448)
+[RX] #481 mode=0 T=26.24 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3810 (CTR=0.3810 CBC=0.4659 GCM=0.4447)
+[RX] #482 mode=0 T=25.34 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3809 (CTR=0.3809 CBC=0.4658 GCM=0.4446)
+[RX] #483 mode=0 T=25.43 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3808 (CTR=0.3808 CBC=0.4657 GCM=0.4445)
+[RX] #484 mode=0 T=26.19 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=9 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.075 perAuth=0.000 batt=1.00 mode=CTR cost=0.3807 (CTR=0.3807 CBC=0.4656 GCM=0.4444)
+[RX] #485 mode=0 T=25.36 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=5 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3818 (CTR=0.3818 CBC=0.4668 GCM=0.4456)
+[RX] #486 mode=0 T=25.64 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=7 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3817 (CTR=0.3817 CBC=0.4667 GCM=0.4455)
+[RX] #487 mode=0 T=26.12 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=0 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3817 (CTR=0.3817 CBC=0.4666 GCM=0.4454)
+[RX] #488 mode=0 T=26.21 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=3 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3816 (CTR=0.3816 CBC=0.4665 GCM=0.4453)
+[RX] #489 mode=0 T=26.09 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=-4 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3815 (CTR=0.3815 CBC=0.4664 GCM=0.4452)
+[RX] #490 mode=0 T=25.64 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=-4 per=0.074 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.076 perAuth=0.000 batt=1.00 mode=CTR cost=0.3814 (CTR=0.3814 CBC=0.4663 GCM=0.4451)
+[RX] #491 mode=0 T=26.05 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=1 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3825 (CTR=0.3825 CBC=0.4675 GCM=0.4463)
+[RX] #492 mode=0 T=26.11 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=-3 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3824 (CTR=0.3824 CBC=0.4674 GCM=0.4462)
+[RX] #493 mode=0 T=25.31 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=0 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3823 (CTR=0.3823 CBC=0.4673 GCM=0.4461)
+[RX] #494 mode=0 T=25.60 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=0 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3822 (CTR=0.3822 CBC=0.4672 GCM=0.4460)
+[RX] #495 mode=0 T=26.10 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=0 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3821 (CTR=0.3821 CBC=0.4671 GCM=0.4459)
+[RX] #496 mode=0 T=26.20 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=-6 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.077 perAuth=0.000 batt=1.00 mode=CTR cost=0.3820 (CTR=0.3820 CBC=0.4670 GCM=0.4458)
+[RX] #497 mode=0 T=25.74 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=-5 per=0.078 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.079 perAuth=0.000 batt=1.00 mode=CTR cost=0.3843 (CTR=0.3843 CBC=0.4695 GCM=0.4482)
+[RX] #498 mode=0 T=25.62 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=-6 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.086 perAuth=0.000 batt=1.00 mode=CTR cost=0.3903 (CTR=0.3903 CBC=0.4759 GCM=0.4545)
+[RX] #499 mode=0 T=25.58 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=-6 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.086 perAuth=0.000 batt=1.00 mode=CTR cost=0.3902 (CTR=0.3902 CBC=0.4758 GCM=0.4544)
+[RX] #500 mode=0 T=25.33 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=-8 per=0.086 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.086 perAuth=0.000 batt=1.00 mode=CTR cost=0.3901 (CTR=0.3901 CBC=0.4757 GCM=0.4543)
+[RX] #501 mode=0 T=25.86 P=0.00 lat=22.7596 lng=75.8255
+[RX] ACK sent snr=-4 per=0.094 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.093 perAuth=0.000 batt=1.00 mode=CTR cost=0.3960 (CTR=0.3960 CBC=0.4821 GCM=0.4606)
+[RX] #502 mode=0 T=26.13 P=0.00 lat=22.7595 lng=75.8255
+[RX] ACK sent snr=-5 per=0.094 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.093 perAuth=0.000 batt=1.00 mode=CTR cost=0.3959 (CTR=0.3959 CBC=0.4820 GCM=0.4605)
+[RX] #503 mode=0 T=25.83 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.094 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.093 perAuth=0.000 batt=1.00 mode=CTR cost=0.3958 (CTR=0.3958 CBC=0.4819 GCM=0.4604)
+[RX] #504 mode=0 T=26.09 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-7 per=0.094 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.093 perAuth=0.000 batt=1.00 mode=CTR cost=0.3956 (CTR=0.3956 CBC=0.4818 GCM=0.4602)
+[RX] #505 mode=0 T=25.49 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-6 per=0.094 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.094 perAuth=0.000 batt=1.00 mode=CTR cost=0.3967 (CTR=0.3967 CBC=0.4830 GCM=0.4614)
+[RX] #506 mode=0 T=25.50 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-6 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4123 (CTR=0.4123 CBC=0.4999 GCM=0.4780)
+[RX] #507 mode=0 T=25.87 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-7 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4122 (CTR=0.4122 CBC=0.4998 GCM=0.4779)
+[RX] #508 mode=0 T=25.58 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-7 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4121 (CTR=0.4121 CBC=0.4996 GCM=0.4777)
+[RX] #509 mode=0 T=25.52 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-4 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4131 (CTR=0.4131 CBC=0.5008 GCM=0.4789)
+[RX] #510 mode=0 T=25.85 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4130 (CTR=0.4130 CBC=0.5007 GCM=0.4787)
+[RX] #511 mode=0 T=25.69 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=0 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4129 (CTR=0.4129 CBC=0.5005 GCM=0.4786)
+[RX] #512 mode=0 T=25.87 P=0.00 lat=22.7595 lng=75.8256
+[RX] ACK sent snr=-4 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4127 (CTR=0.4127 CBC=0.5004 GCM=0.4785)
+[RX] #513 mode=0 T=25.33 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4126 (CTR=0.4126 CBC=0.5002 GCM=0.4783)
+[RX] #514 mode=0 T=25.77 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4124 (CTR=0.4124 CBC=0.5001 GCM=0.4782)
+[RX] #515 mode=0 T=26.01 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-1 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4123 (CTR=0.4123 CBC=0.4999 GCM=0.4780)
+[RX] #516 mode=0 T=25.64 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4122 (CTR=0.4122 CBC=0.4998 GCM=0.4779)
+[RX] #517 mode=0 T=25.35 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4120 (CTR=0.4120 CBC=0.4996 GCM=0.4777)
+[RX] #518 mode=0 T=25.40 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4119 (CTR=0.4119 CBC=0.4995 GCM=0.4776)
+[RX] #519 mode=0 T=26.16 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4118 (CTR=0.4118 CBC=0.4993 GCM=0.4774)
+[RX] #520 mode=0 T=25.31 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4116 (CTR=0.4116 CBC=0.4992 GCM=0.4773)
+[RX] #521 mode=0 T=26.03 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4115 (CTR=0.4115 CBC=0.4990 GCM=0.4772)
+[RX] #522 mode=0 T=25.49 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.111 perAuth=0.000 batt=1.00 mode=CTR cost=0.4114 (CTR=0.4114 CBC=0.4989 GCM=0.4770)
+[RX] #523 mode=0 T=25.61 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.111 perAuth=0.000 batt=1.00 mode=CTR cost=0.4112 (CTR=0.4112 CBC=0.4988 GCM=0.4769)
+[RX] #524 mode=0 T=26.24 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.111 perAuth=0.000 batt=1.00 mode=CTR cost=0.4111 (CTR=0.4111 CBC=0.4986 GCM=0.4767)
+[RX] #525 mode=0 T=25.53 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.111 perAuth=0.000 batt=1.00 mode=CTR cost=0.4110 (CTR=0.4110 CBC=0.4985 GCM=0.4766)
+[RX] #526 mode=0 T=26.06 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.111 perAuth=0.000 batt=1.00 mode=CTR cost=0.4108 (CTR=0.4108 CBC=0.4983 GCM=0.4765)
+[RX] #527 mode=0 T=26.21 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.111 perAuth=0.000 batt=1.00 mode=CTR cost=0.4107 (CTR=0.4107 CBC=0.4982 GCM=0.4763)
+[RX] #528 mode=0 T=25.98 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.110 perAuth=0.000 batt=1.00 mode=CTR cost=0.4106 (CTR=0.4106 CBC=0.4980 GCM=0.4762)
+[RX] #529 mode=0 T=25.92 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.110 perAuth=0.000 batt=1.00 mode=CTR cost=0.4105 (CTR=0.4105 CBC=0.4979 GCM=0.4760)
+[RX] #530 mode=0 T=26.23 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-3 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.110 perAuth=0.000 batt=1.00 mode=CTR cost=0.4103 (CTR=0.4103 CBC=0.4978 GCM=0.4759)
+[RX] #531 mode=0 T=26.23 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.110 perAuth=0.000 batt=1.00 mode=CTR cost=0.4102 (CTR=0.4102 CBC=0.4976 GCM=0.4758)
+[RX] #532 mode=0 T=25.64 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-2 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.110 perAuth=0.000 batt=1.00 mode=CTR cost=0.4101 (CTR=0.4101 CBC=0.4975 GCM=0.4756)
+[RX] #533 mode=0 T=25.92 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=-4 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.110 perAuth=0.000 batt=1.00 mode=CTR cost=0.4099 (CTR=0.4099 CBC=0.4973 GCM=0.4755)
+[RX] #534 mode=0 T=26.27 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-3 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.110 perAuth=0.000 batt=1.00 mode=CTR cost=0.4098 (CTR=0.4098 CBC=0.4972 GCM=0.4754)
+[RX] #535 mode=0 T=25.96 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.109 perAuth=0.000 batt=1.00 mode=CTR cost=0.4097 (CTR=0.4097 CBC=0.4971 GCM=0.4752)
+[RX] #536 mode=0 T=26.23 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-2 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.109 perAuth=0.000 batt=1.00 mode=CTR cost=0.4096 (CTR=0.4096 CBC=0.4969 GCM=0.4751)
+[RX] #537 mode=0 T=25.31 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.109 perAuth=0.000 batt=1.00 mode=CTR cost=0.4094 (CTR=0.4094 CBC=0.4968 GCM=0.4749)
+[RX] #538 mode=0 T=26.29 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.109 perAuth=0.000 batt=1.00 mode=CTR cost=0.4093 (CTR=0.4093 CBC=0.4966 GCM=0.4748)
+[RX] #539 mode=0 T=26.27 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.109 perAuth=0.000 batt=1.00 mode=CTR cost=0.4092 (CTR=0.4092 CBC=0.4965 GCM=0.4747)
+[RX] #540 mode=0 T=26.07 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.109 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.109 perAuth=0.000 batt=1.00 mode=CTR cost=0.4091 (CTR=0.4091 CBC=0.4964 GCM=0.4745)
+[RX] #541 mode=0 T=26.10 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4124 (CTR=0.4124 CBC=0.5000 GCM=0.4781)
+[RX] #542 mode=0 T=25.33 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4123 (CTR=0.4123 CBC=0.4999 GCM=0.4780)
+[RX] #543 mode=0 T=25.76 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4121 (CTR=0.4121 CBC=0.4997 GCM=0.4778)
+[RX] #544 mode=0 T=26.03 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.112 perAuth=0.000 batt=1.00 mode=CTR cost=0.4120 (CTR=0.4120 CBC=0.4996 GCM=0.4777)
+[RX] #545 mode=0 T=25.53 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.115 perAuth=0.000 batt=1.00 mode=CTR cost=0.4142 (CTR=0.4142 CBC=0.5020 GCM=0.4800)
+[RX] #546 mode=0 T=26.05 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.115 perAuth=0.000 batt=1.00 mode=CTR cost=0.4141 (CTR=0.4141 CBC=0.5018 GCM=0.4799)
+[RX] #547 mode=0 T=25.49 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-8 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4139 (CTR=0.4139 CBC=0.5017 GCM=0.4797)
+[RX] #548 mode=0 T=25.62 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4138 (CTR=0.4138 CBC=0.5015 GCM=0.4796)
+[RX] #549 mode=0 T=25.78 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-8 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4137 (CTR=0.4137 CBC=0.5014 GCM=0.4795)
+[RX] #550 mode=0 T=25.32 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4135 (CTR=0.4135 CBC=0.5012 GCM=0.4793)
+[RX] #551 mode=0 T=25.83 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-4 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4134 (CTR=0.4134 CBC=0.5011 GCM=0.4792)
+[RX] #552 mode=0 T=25.95 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-2 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4133 (CTR=0.4133 CBC=0.5010 GCM=0.4790)
+[RX] #553 mode=0 T=25.85 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4131 (CTR=0.4131 CBC=0.5008 GCM=0.4789)
+[RX] #554 mode=0 T=26.07 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-2 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4130 (CTR=0.4130 CBC=0.5007 GCM=0.4788)
+[RX] #555 mode=0 T=26.23 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-2 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4129 (CTR=0.4129 CBC=0.5005 GCM=0.4786)
+[RX] #556 mode=0 T=26.01 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=2 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4128 (CTR=0.4128 CBC=0.5004 GCM=0.4785)
+[RX] #557 mode=0 T=25.69 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=0 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4126 (CTR=0.4126 CBC=0.5003 GCM=0.4783)
+[RX] #558 mode=0 T=25.65 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=0 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4125 (CTR=0.4125 CBC=0.5001 GCM=0.4782)
+[RX] #559 mode=0 T=25.83 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-2 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4135 (CTR=0.4135 CBC=0.5012 GCM=0.4793)
+[RX] #560 mode=0 T=26.28 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4134 (CTR=0.4134 CBC=0.5011 GCM=0.4791)
+[RX] #561 mode=0 T=25.38 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.114 perAuth=0.000 batt=1.00 mode=CTR cost=0.4132 (CTR=0.4132 CBC=0.5009 GCM=0.4790)
+[RX] #562 mode=0 T=25.85 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-3 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4131 (CTR=0.4131 CBC=0.5008 GCM=0.4789)
+[RX] #563 mode=0 T=25.98 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4130 (CTR=0.4130 CBC=0.5007 GCM=0.4787)
+[RX] #564 mode=0 T=25.39 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4129 (CTR=0.4129 CBC=0.5005 GCM=0.4786)
+[RX] #565 mode=0 T=25.63 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4127 (CTR=0.4127 CBC=0.5004 GCM=0.4785)
+[RX] #566 mode=0 T=26.01 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4126 (CTR=0.4126 CBC=0.5002 GCM=0.4783)
+[RX] #567 mode=0 T=25.77 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.113 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.113 perAuth=0.000 batt=1.00 mode=CTR cost=0.4125 (CTR=0.4125 CBC=0.5001 GCM=0.4782)
+[RX] #568 mode=0 T=25.36 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-8 per=0.117 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.118 perAuth=0.000 batt=1.00 mode=CTR cost=0.4168 (CTR=0.4168 CBC=0.5048 GCM=0.4828)
+[RX] #569 mode=0 T=25.77 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.117 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.118 perAuth=0.000 batt=1.00 mode=CTR cost=0.4167 (CTR=0.4167 CBC=0.5047 GCM=0.4827)
+[RX] #570 mode=0 T=25.43 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.117 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.117 perAuth=0.000 batt=1.00 mode=CTR cost=0.4166 (CTR=0.4166 CBC=0.5046 GCM=0.4826)
+[RX] #571 mode=0 T=25.98 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.117 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.119 perAuth=0.000 batt=1.00 mode=CTR cost=0.4176 (CTR=0.4176 CBC=0.5056 GCM=0.4836)
+[RX] #572 mode=0 T=26.29 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.117 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.118 perAuth=0.000 batt=1.00 mode=CTR cost=0.4174 (CTR=0.4174 CBC=0.5055 GCM=0.4835)
+[RX] #573 mode=0 T=26.24 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4240 (CTR=0.4240 CBC=0.5127 GCM=0.4905)
+[RX] #574 mode=0 T=26.13 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4239 (CTR=0.4239 CBC=0.5125 GCM=0.4904)
+[RX] #575 mode=0 T=26.14 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4237 (CTR=0.4237 CBC=0.5124 GCM=0.4902)
+[RX] #576 mode=0 T=25.95 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.127 perAuth=0.000 batt=1.00 mode=CTR cost=0.4247 (CTR=0.4247 CBC=0.5134 GCM=0.4913)
+[RX] #577 mode=0 T=26.23 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=0 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.127 perAuth=0.000 batt=1.00 mode=CTR cost=0.4246 (CTR=0.4246 CBC=0.5133 GCM=0.4911)
+[RX] #578 mode=0 T=25.56 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=0 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.127 perAuth=0.000 batt=1.00 mode=CTR cost=0.4244 (CTR=0.4244 CBC=0.5131 GCM=0.4910)
+[RX] #579 mode=0 T=26.18 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-2 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4243 (CTR=0.4243 CBC=0.5130 GCM=0.4908)
+[RX] #580 mode=0 T=25.50 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4241 (CTR=0.4241 CBC=0.5128 GCM=0.4907)
+[RX] #581 mode=0 T=25.60 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4240 (CTR=0.4240 CBC=0.5127 GCM=0.4905)
+[RX] #582 mode=0 T=25.91 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.127 perAuth=0.000 batt=1.00 mode=CTR cost=0.4250 (CTR=0.4250 CBC=0.5137 GCM=0.4915)
+[RX] #583 mode=0 T=26.25 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.127 perAuth=0.000 batt=1.00 mode=CTR cost=0.4248 (CTR=0.4248 CBC=0.5136 GCM=0.4914)
+[RX] #584 mode=0 T=25.31 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.127 perAuth=0.000 batt=1.00 mode=CTR cost=0.4247 (CTR=0.4247 CBC=0.5134 GCM=0.4912)
+[RX] #585 mode=0 T=26.28 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-2 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-2.0 perRadio=0.127 perAuth=0.000 batt=1.00 mode=CTR cost=0.4246 (CTR=0.4246 CBC=0.5133 GCM=0.4911)
+[RX] #586 mode=0 T=25.33 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-4 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.127 perAuth=0.000 batt=1.00 mode=CTR cost=0.4244 (CTR=0.4244 CBC=0.5131 GCM=0.4909)
+[RX] #587 mode=0 T=25.84 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4243 (CTR=0.4243 CBC=0.5130 GCM=0.4908)
+[RX] #588 mode=0 T=25.33 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-4 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4241 (CTR=0.4241 CBC=0.5128 GCM=0.4906)
+[RX] #589 mode=0 T=25.85 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4240 (CTR=0.4240 CBC=0.5127 GCM=0.4905)
+[RX] #590 mode=0 T=25.39 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-3 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4239 (CTR=0.4239 CBC=0.5125 GCM=0.4903)
+[RX] #591 mode=0 T=25.52 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=3 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4237 (CTR=0.4237 CBC=0.5124 GCM=0.4902)
+[RX] #592 mode=0 T=26.23 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=2 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.126 perAuth=0.000 batt=1.00 mode=CTR cost=0.4236 (CTR=0.4236 CBC=0.5122 GCM=0.4900)
+[RX] #593 mode=0 T=25.78 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=3 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=3.0 perRadio=0.125 perAuth=0.000 batt=1.00 mode=CTR cost=0.4234 (CTR=0.4234 CBC=0.5121 GCM=0.4899)
+[RX] #594 mode=0 T=25.68 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=2 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.125 perAuth=0.000 batt=1.00 mode=CTR cost=0.4233 (CTR=0.4233 CBC=0.5119 GCM=0.4898)
+[RX] #595 mode=0 T=25.87 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=2 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.125 perAuth=0.000 batt=1.00 mode=CTR cost=0.4232 (CTR=0.4232 CBC=0.5118 GCM=0.4896)
+[RX] #596 mode=0 T=26.15 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=2 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.125 perAuth=0.000 batt=1.00 mode=CTR cost=0.4230 (CTR=0.4230 CBC=0.5116 GCM=0.4895)
+[RX] #597 mode=0 T=25.48 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=0 per=0.125 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.125 perAuth=0.000 batt=1.00 mode=CTR cost=0.4229 (CTR=0.4229 CBC=0.5115 GCM=0.4893)
+[RX] #598 mode=0 T=25.67 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-3 per=0.129 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.130 perAuth=0.000 batt=1.00 mode=CTR cost=0.4271 (CTR=0.4271 CBC=0.5161 GCM=0.4938)
+[RX] #599 mode=0 T=25.67 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-8 per=0.133 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.133 perAuth=0.000 batt=1.00 mode=CTR cost=0.4303 (CTR=0.4303 CBC=0.5195 GCM=0.4972)
+[RX] #600 mode=0 T=26.14 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-4 per=0.133 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.133 perAuth=0.000 batt=1.00 mode=CTR cost=0.4301 (CTR=0.4301 CBC=0.5193 GCM=0.4970)
+[RX] #601 mode=0 T=26.28 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.133 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.133 perAuth=0.000 batt=1.00 mode=CTR cost=0.4300 (CTR=0.4300 CBC=0.5192 GCM=0.4969)
+[RX] #602 mode=0 T=26.29 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.133 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.133 perAuth=0.000 batt=1.00 mode=CTR cost=0.4298 (CTR=0.4298 CBC=0.5190 GCM=0.4967)
+[RX] #603 mode=0 T=26.03 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-3 per=0.137 af=0.000
+[RX] COST policy=BestEffort snr=-3.0 perRadio=0.136 perAuth=0.000 batt=1.00 mode=CTR cost=0.4329 (CTR=0.4329 CBC=0.5224 GCM=0.5001)
+[RX] #604 mode=0 T=25.69 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.137 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.136 perAuth=0.000 batt=1.00 mode=CTR cost=0.4328 (CTR=0.4328 CBC=0.5223 GCM=0.4999)
+[RX] #605 mode=0 T=25.99 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.137 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.136 perAuth=0.000 batt=1.00 mode=CTR cost=0.4326 (CTR=0.4326 CBC=0.5221 GCM=0.4997)
+[RX] #606 mode=0 T=25.81 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.137 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.136 perAuth=0.000 batt=1.00 mode=CTR cost=0.4325 (CTR=0.4325 CBC=0.5219 GCM=0.4996)
+[RX] #607 mode=0 T=26.02 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.137 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.136 perAuth=0.000 batt=1.00 mode=CTR cost=0.4324 (CTR=0.4324 CBC=0.5218 GCM=0.4994)
+[RX] #608 mode=0 T=25.69 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-9 per=0.137 af=0.000
+[RX] COST policy=BestEffort snr=-9.0 perRadio=0.138 perAuth=0.000 batt=1.00 mode=CTR cost=0.4344 (CTR=0.4344 CBC=0.5240 GCM=0.5016)
+[RX] #609 mode=0 T=25.94 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.137 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.138 perAuth=0.000 batt=1.00 mode=CTR cost=0.4342 (CTR=0.4342 CBC=0.5238 GCM=0.5014)
+[RX] #610 mode=0 T=25.97 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-4 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=-4.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4417 (CTR=0.4417 CBC=0.5320 GCM=0.5094)
+[RX] #611 mode=0 T=25.71 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-5 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4415 (CTR=0.4415 CBC=0.5318 GCM=0.5092)
+[RX] #612 mode=0 T=25.32 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=-9.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4414 (CTR=0.4414 CBC=0.5316 GCM=0.5091)
+[RX] #613 mode=0 T=26.08 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.148 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4423 (CTR=0.4423 CBC=0.5326 GCM=0.5101)
+[RX] #614 mode=0 T=25.84 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-6 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=-6.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4421 (CTR=0.4421 CBC=0.5325 GCM=0.5099)
+[RX] #615 mode=0 T=25.38 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-7 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=-7.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4420 (CTR=0.4420 CBC=0.5323 GCM=0.5097)
+[RX] #616 mode=0 T=25.30 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=-8.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4418 (CTR=0.4418 CBC=0.5321 GCM=0.5095)
+[RX] #617 mode=0 T=26.16 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=-1 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=-1.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4417 (CTR=0.4417 CBC=0.5319 GCM=0.5094)
+[RX] #618 mode=0 T=25.33 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=2 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=2.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4415 (CTR=0.4415 CBC=0.5318 GCM=0.5092)
+[RX] #619 mode=0 T=26.02 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=0 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=0.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4413 (CTR=0.4413 CBC=0.5316 GCM=0.5090)
+[RX] #620 mode=0 T=25.39 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=4 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=4.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4412 (CTR=0.4412 CBC=0.5314 GCM=0.5089)
+[RX] #621 mode=0 T=25.84 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=1 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4410 (CTR=0.4410 CBC=0.5313 GCM=0.5087)
+[RX] #622 mode=0 T=25.34 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=1 per=0.148 af=0.000
+[RX] COST policy=BestEffort snr=1.0 perRadio=0.148 perAuth=0.000 batt=1.00 mode=CTR cost=0.4430 (CTR=0.4430 CBC=0.5334 GCM=0.5108)
+[RX] #623 mode=0 T=25.82 P=0.00 lat=22.7594 lng=75.8257
+[RX] ACK sent snr=-5 per=0.148 af=0.000
+[RX] COST policy=BestEffort snr=-5.0 perRadio=0.148 perAuth=0.000 batt=1.00 mode=CTR cost=0.4429 (CTR=0.4429 CBC=0.5333 GCM=0.5107)
+[RX] #624 mode=0 T=25.78 P=0.00 lat=22.7594 lng=75.8257
+[RX] ACK sent snr=5 per=0.148 af=0.000
+[RX] COST policy=BestEffort snr=5.0 perRadio=0.148 perAuth=0.000 batt=1.00 mode=CTR cost=0.4427 (CTR=0.4427 CBC=0.5331 GCM=0.5105)
+[RX] #625 mode=0 T=25.64 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=8 per=0.148 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4425 (CTR=0.4425 CBC=0.5329 GCM=0.5103)
+[RX] #626 mode=0 T=25.55 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=9 per=0.148 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4424 (CTR=0.4424 CBC=0.5327 GCM=0.5102)
+[RX] #627 mode=0 T=25.79 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4422 (CTR=0.4422 CBC=0.5326 GCM=0.5100)
+[RX] #628 mode=0 T=26.13 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=7 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4421 (CTR=0.4421 CBC=0.5324 GCM=0.5098)
+[RX] #629 mode=0 T=25.32 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.147 perAuth=0.000 batt=1.00 mode=CTR cost=0.4419 (CTR=0.4419 CBC=0.5322 GCM=0.5097)
+[RX] #630 mode=0 T=25.78 P=0.00 lat=22.7594 lng=75.8256
+[RX] ACK sent snr=10 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4418 (CTR=0.4418 CBC=0.5321 GCM=0.5095)
+[RX] #631 mode=0 T=25.78 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4416 (CTR=0.4416 CBC=0.5319 GCM=0.5093)
+[RX] #632 mode=0 T=26.02 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4414 (CTR=0.4414 CBC=0.5317 GCM=0.5092)
+[RX] #633 mode=0 T=26.03 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4413 (CTR=0.4413 CBC=0.5315 GCM=0.5090)
+[RX] #634 mode=0 T=25.64 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=10 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4411 (CTR=0.4411 CBC=0.5314 GCM=0.5088)
+[RX] #635 mode=0 T=26.26 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.146 perAuth=0.000 batt=1.00 mode=CTR cost=0.4410 (CTR=0.4410 CBC=0.5312 GCM=0.5087)
+[RX] #636 mode=0 T=26.12 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=11 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=11.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4408 (CTR=0.4408 CBC=0.5310 GCM=0.5085)
+[RX] #637 mode=0 T=25.38 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4407 (CTR=0.4407 CBC=0.5309 GCM=0.5083)
+[RX] #638 mode=0 T=25.36 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4405 (CTR=0.4405 CBC=0.5307 GCM=0.5082)
+[RX] #639 mode=0 T=25.55 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4404 (CTR=0.4404 CBC=0.5305 GCM=0.5080)
+[RX] #640 mode=0 T=25.62 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4402 (CTR=0.4402 CBC=0.5304 GCM=0.5078)
+[RX] #641 mode=0 T=26.05 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4401 (CTR=0.4401 CBC=0.5302 GCM=0.5077)
+[RX] #642 mode=0 T=26.15 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.144 perAuth=0.000 batt=1.00 mode=CTR cost=0.4399 (CTR=0.4399 CBC=0.5300 GCM=0.5075)
+[RX] #643 mode=0 T=25.84 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=10 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=10.0 perRadio=0.144 perAuth=0.000 batt=1.00 mode=CTR cost=0.4398 (CTR=0.4398 CBC=0.5299 GCM=0.5073)
+[RX] #644 mode=0 T=25.90 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.144 perAuth=0.000 batt=1.00 mode=CTR cost=0.4396 (CTR=0.4396 CBC=0.5297 GCM=0.5072)
+[RX] #645 mode=0 T=25.33 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=9 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=9.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4405 (CTR=0.4405 CBC=0.5307 GCM=0.5081)
+[RX] #646 mode=0 T=26.21 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=7 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4404 (CTR=0.4404 CBC=0.5305 GCM=0.5080)
+[RX] #647 mode=0 T=25.74 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4402 (CTR=0.4402 CBC=0.5304 GCM=0.5078)
+[RX] #648 mode=0 T=26.00 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.145 perAuth=0.000 batt=1.00 mode=CTR cost=0.4401 (CTR=0.4401 CBC=0.5302 GCM=0.5077)
+[RX] #649 mode=0 T=25.39 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=8 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=8.0 perRadio=0.144 perAuth=0.000 batt=1.00 mode=CTR cost=0.4399 (CTR=0.4399 CBC=0.5300 GCM=0.5075)
+[RX] #650 mode=0 T=25.55 P=0.00 lat=22.7593 lng=75.8256
+[RX] ACK sent snr=7 per=0.145 af=0.000
+[RX] COST policy=BestEffort snr=7.0 perRadio=0.144 perAuth=0.000 batt=1.00 mode=CTR cost=0.4398 (CTR=0.4398 CBC=0.5299 GCM=0.5073)

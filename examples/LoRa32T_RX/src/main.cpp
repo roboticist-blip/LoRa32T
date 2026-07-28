@@ -13,7 +13,7 @@
 #include <LoRa.h>
 #include "LoRa32T.h"
 
-// ─── LoRa pin mapping (adjust to your board) ─────────────────────────────────
+// LoRa pin mapping (adjust to your board)
 #define LORA_SS   5
 #define LORA_RST  14
 #define LORA_DIO0 26
@@ -26,7 +26,11 @@ static const uint8_t PSK[16] = {
 };
 
 #define PAYLOAD_SIZE  64
-#define HEADER_SIZE   (1 + 16 + 16 + 4)   // mode + iv + tag + seqNum
+// Header size is mode-dependent now (M-1) — see sec.frameHeaderSize(mode).
+// The minimum possible header (CTR/GCM nonce, no tag) is used only for the
+// initial parsePacket() length sanity check; the real header length is
+// resolved once the mode byte is read.
+#define MIN_HEADER_SIZE (1 + 12 + 4)
 
 struct Telemetry {
     uint32_t seqNum;
@@ -41,14 +45,19 @@ struct Telemetry {
 #define WINDOW_SIZE 50
 
 struct RxStats {
-    uint32_t total;
-    uint32_t lost;       
-    uint32_t authFails;
+    uint32_t received;    // packets actually received (was "total")
+    uint32_t lost;
+    uint32_t authFails;   // GCM-only tag mismatches
+    uint32_t crcFails;    // cross-mode corruption proxy (M-3)
     uint32_t lastSeq;
     uint8_t  windowLost[WINDOW_SIZE];
     uint8_t  windowAuth[WINDOW_SIZE];
-    uint8_t  head;       
+    uint8_t  head;
 };
+
+// M-4: PER's correct denominator is everything that was SENT
+// (received + lost), not just what arrived.
+inline uint32_t expectedTotal(const RxStats& s) { return s.received + s.lost; }
 
 LoRa32T sec;
 RxStats         stats = {};
@@ -59,7 +68,6 @@ static constexpr float COST_ALPHA  = 0.55f;
 static constexpr float COST_BETA   = 0.30f;
 static constexpr float COST_GAMMA0 = 0.10f;
 static constexpr float COST_KAPPA  = 0.25f;
-static constexpr float TOA_NORM[3] = {0.80f, 1.00f, 0.95f};
 static constexpr SecurityPolicy COST_DEBUG_POLICY = SecurityPolicy::BestEffort;
 
 const char* modeName(AESMode m)
@@ -78,6 +86,10 @@ float retryFactor(float per)
     return 1.0f / (1.0f - p);
 }
 
+// Debug-only mirror of the TX-side cost function, for the log line below.
+// Uses sec.toaMs()/sec.frameHeaderSize() so it stays consistent with the
+// library's live ToA model (M-1) instead of its own hardcoded constants.
+// This is diagnostic output only — the RX never makes mode decisions.
 float computeDebugCost(AESMode mode,
                        SecurityPolicy policy,
                        float snr,
@@ -87,17 +99,21 @@ float computeDebugCost(AESMode mode,
 {
     if (policy == SecurityPolicy::Mandatory && mode != AESMode::GCM)
         return 1e9f;
-    if (policy == SecurityPolicy::Conditional && mode == AESMode::CTR && snr > 0.0f)
+    // M-6: boundary matches the library (>= 0 dB, not > 0 dB).
+    if (policy == SecurityPolicy::Conditional && mode == AESMode::CTR && snr >= 0.0f)
         return 1e9f;
 
-    const uint8_t idx = static_cast<uint8_t>(mode);
     float perEff = perRadio;
     if (mode == AESMode::GCM)
         perEff += perAuth;
 
+    float toaCBC = sec.toaMs(AESMode::CBC, PAYLOAD_SIZE);
+    float toaM   = sec.toaMs(mode,         PAYLOAD_SIZE);
+    float toaNorm = (toaCBC > 0.0f) ? (toaM / toaCBC) : 1.0f;
+
     const float fLink    = perEff;
-    const float fLatency = TOA_NORM[idx] * retryFactor(perEff);
-    const float fEnergy  = TOA_NORM[idx];
+    const float fLatency = toaNorm * retryFactor(perEff);
+    const float fEnergy  = toaNorm;
     const float gammaEff = COST_GAMMA0 + COST_KAPPA * (1.0f - battLevel);
     return COST_ALPHA * fLink + COST_BETA * fLatency + gammaEff * fEnergy;
 }
@@ -146,32 +162,47 @@ void loop()
     }
 
     int pktSize = LoRa.parsePacket();
-    if (pktSize < (int)(HEADER_SIZE + PAYLOAD_SIZE)) return;
+    if (pktSize < (int)(MIN_HEADER_SIZE + PAYLOAD_SIZE)) return;
 
     digitalWrite(LED_PIN, HIGH);
     ledPulseActive = true;
     ledOffAtMs = millis() + LED_BLINK_MS;
 
-    // ── 1. Parse packet header ───────────────────────────────────────────
+    // 1. Parse mode byte first — header length depends on it (M-1)
     CryptoFrame frame;
     uint8_t plainBuf[PAYLOAD_SIZE];
     uint8_t cipherBuf[PAYLOAD_SIZE + 16];
+    memset(frame.iv,  0, 16);
+    memset(frame.tag, 0, 16);
 
     frame.mode = LoRa.read();
-    LoRa.readBytes(frame.iv,  16);
-    LoRa.readBytes(frame.tag, 16);
+    AESMode frameMode = static_cast<AESMode>(frame.mode);
+
+    // 2. Enforce SecurityPolicy on the RECEIVE path before decrypting
+    //      (S-2). Previously Mandatory/Conditional were only checked at
+    //      the transmitter's mode-selection step, which an attacker does
+    //      not need to touch to send a frame in a disallowed mode.
+    if (!sec.isModeAllowed(frameMode, COST_DEBUG_POLICY)) {
+        Serial.printf("[RX] Rejected frame: mode=%u not permitted by policy\n", frame.mode);
+        stats.crcFails++;
+        return;
+    }
+
+    size_t ivLen = (frameMode == AESMode::CBC) ? 16 : 12;
+    LoRa.readBytes(frame.iv, ivLen);
+    if (frameMode == AESMode::GCM)
+        LoRa.readBytes(frame.tag, 16);
 
     uint32_t rxSeq = 0;
     LoRa.readBytes((uint8_t*)&rxSeq, 4);
 
+    size_t headerSize = 1 + ivLen + (frameMode == AESMode::GCM ? 16 : 0) + 4;
     frame.cipher = cipherBuf;
-    frame.len    = pktSize - HEADER_SIZE;
-    if (frame.len > sizeof(cipherBuf)) return;   // sanity guard
+    frame.len    = pktSize - headerSize;
+    if (frame.len > sizeof(cipherBuf) || (int)frame.len < 0) return;   // sanity guard
     LoRa.readBytes(cipherBuf, frame.len);
 
-    // ── 2. Track lost packets via sequence gaps ───────────────────────────
-    // Handle TX restarts (sequence wraps back to small values) so PER does
-    // not get corrupted by unsigned underflow artifacts.
+    // 3. Track lost packets via sequence gaps─
     uint32_t prevSeq = stats.lastSeq;
     if (stats.lastSeq == 0) {
         stats.lastSeq = rxSeq;
@@ -180,25 +211,34 @@ void loop()
         stats.lost += gap;
         stats.lastSeq = rxSeq;
     } else if (rxSeq < stats.lastSeq && rxSeq < 100 && stats.lastSeq > 1000) {
-        stats.total = 0;
-        stats.lost = 0;
+        stats.received  = 0;
+        stats.lost      = 0;
         stats.authFails = 0;
-        stats.lastSeq = rxSeq;
+        stats.crcFails  = 0;
+        stats.lastSeq   = rxSeq;
         Serial.printf("[RX] Sequence restart detected (last=%lu, now=%lu), resetting link counters\n",
                       (unsigned long)prevSeq,
                       (unsigned long)rxSeq);
     }
 
-    // ── 3. Decrypt ───────────────────────────────────────────────────────
+    // 4. Decryp
     bool authOk = sec.decrypt(frame, plainBuf);
+    stats.received++;
 
-    // Accumulate in a very simple window (full sliding window is optional here;
-    // keeping it simple: running totals, ACK builder divides by total)
-    if (!authOk && frame.mode == (uint8_t)AESMode::GCM)
-        stats.authFails++;
-    stats.total++;
+    if (!authOk) {
+        // GCM-specific tag mismatch, kept for its own reported metric...
+        if (frameMode == AESMode::GCM)
+            stats.authFails++;
+        // ...but ALSO folded into the cross-mode corruption proxy (M-3),
+        // so perAuth stays a live signal even while parked in CTR/CBC,
+        // where GCM's own counter would otherwise be permanently zero.
+        stats.crcFails++;
+        sec.noteCrcResult(false);
+    } else {
+        sec.noteCrcResult(true);
+    }
 
-    // ── 4. Process plaintext if decryption succeeded ─────────────────────
+    // 5. Process plaintext if decryption succeede
     if (authOk) {
         const Telemetry* t = reinterpret_cast<const Telemetry*>(plainBuf);
         Serial.printf("[RX] #%u mode=%u T=%.2f P=%.2f lat=%.4f lng=%.4f\n",
@@ -209,45 +249,46 @@ void loop()
                       t->latitude,
                       t->longitude);
     } else {
-        Serial.printf("[RX] #%u AUTH FAIL (mode=%u)\n", rxSeq, frame.mode);
+        Serial.printf("[RX] #%u AUTH/DECODE FAIL (mode=%u)\n", rxSeq, frame.mode);
     }
 
-    // ── 5. Build and send ACK with link metrics ───────────────────────────
-    // Give the radio a short turnaround gap (avoids half-duplex collision)
+    // 6. Build and send authenticated ACK with link metrics─
     delay(20);
 
     int8_t snr = (int8_t)LoRa.packetSnr();
 
-    ACKMetrics ack = sec.buildACK(snr,
-                                   stats.total,
-                                   stats.lost,
-                                   stats.authFails);
+    // M-4: PER denominator is total SENT (received + lost), not just
+    // what arrived. The previous lost/received formulation overstated
+    // PER without bound as the link degraded (e.g. reports 1.0 at true
+    // 50% loss instead of 0.5).
+    uint32_t denom = expectedTotal(stats);
+    ACKMetrics ack = sec.buildACK(snr, denom, stats.lost, stats.crcFails);
 
-    const float perRadio = (stats.total > 0) ? (float)stats.lost / (float)stats.total : 0.0f;
-    const float perAuth  = (stats.total > 0) ? (float)stats.authFails / (float)stats.total : 0.0f;
-    const float battEst  = 1.0f;
+    const float perRadio = (denom > 0) ? (float)stats.lost     / (float)denom : 0.0f;
+    const float perAuth  = (denom > 0) ? (float)stats.crcFails / (float)denom : 0.0f;
+    const float battEst  = 1.0f;  // RX is mains-powered; not part of the cost model
     const SecurityPolicy dbgPolicy = COST_DEBUG_POLICY;
 
     const float cCTR = computeDebugCost(AESMode::CTR, dbgPolicy, (float)snr, perRadio, perAuth, battEst);
     const float cCBC = computeDebugCost(AESMode::CBC, dbgPolicy, (float)snr, perRadio, perAuth, battEst);
     const float cGCM = computeDebugCost(AESMode::GCM, dbgPolicy, (float)snr, perRadio, perAuth, battEst);
-    const float cRxMode = computeDebugCost(static_cast<AESMode>(frame.mode),
-                                           dbgPolicy, (float)snr, perRadio, perAuth, battEst);
+    const float cRxMode = computeDebugCost(frameMode, dbgPolicy, (float)snr, perRadio, perAuth, battEst);
 
     LoRa.beginPacket();
     LoRa.write((const uint8_t*)&ack, sizeof(ack));
     LoRa.endPacket();
 
-    Serial.printf("[RX] ACK sent snr=%d per=%.3f af=%.3f\n",
+    Serial.printf("[RX] ACK sent snr=%d per=%.3f af=%.3f ctr=%lu\n",
                   ack.snrRaw,
-                  ack.perQ8    / 256.0f,
-                  ack.authFailQ8 / 256.0f);
+                  ack.perQ8    / 255.0f,
+                  ack.authFailQ8 / 255.0f,
+                  (unsigned long)ack.counter);
     Serial.printf("[RX] COST policy=BestEffort snr=%.1f perR=%.3f perA=%.3f batt=%.2f mode=%s cost=%.4f (CTR=%.4f CBC=%.4f GCM=%.4f)\n",
                   (float)snr,
                   perRadio,
                   perAuth,
                   battEst,
-                  modeName(static_cast<AESMode>(frame.mode)),
+                  modeName(frameMode),
                   cRxMode,
                   cCTR,
                   cCBC,
