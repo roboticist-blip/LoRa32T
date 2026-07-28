@@ -1,4 +1,4 @@
-timestamp_ms,seq,mode,snr,per_radio,per_auth,battery,latency_ms,ack_received,retries,auth_success,mode_switch
+timestamp_ms,seq,mode,snr,per_radio,per_auth,battery,latency_ms,ack_received,retries,auth_success,mode_switch,cost
 2518,1,GCM,10.00,0.0000,0.0000,1.000,1518,0,1,0,0,0.380
 4037,2,GCM,10.00,0.0000,0.0000,1.000,1519,0,2,0,0,0.380
 5555,3,GCM,10.00,0.0000,0.0000,1.000,1518,0,3,0,0,0.380
