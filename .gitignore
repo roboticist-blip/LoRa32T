@@ -1,0 +1,18 @@
+# PlatformIO build output and local dependency caches
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Editor and operating-system metadata
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Compiled embedded artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.a
