@@ -124,7 +124,7 @@ float LoRa32T::_computeCost(AESMode m, SecurityPolicy policy, size_t payloadLenH
     if (m == AESMode::GCM)
         perEff += _ls.perAuth;
 
-    // Reliability cost (Flink) 
+    // Reliability cost (Flink)
     float fLink = perEff;
 
     // Airtime normalised to CBC baseline, computed live from real frame
@@ -133,7 +133,7 @@ float LoRa32T::_computeCost(AESMode m, SecurityPolicy policy, size_t payloadLenH
     float toaM   = toaMs(m,            payloadLenHint);
     float toaNorm = (toaCBC > 0.0f) ? (toaM / toaCBC) : 1.0f;
 
-    // Latency cost (paper eq. 12)
+    // Latency cost (paper eq. 12) 
     float fLatency = toaNorm * _retryFactor(perEff);
 
     // Energy cost (paper eq. 15)
@@ -146,7 +146,26 @@ float LoRa32T::_computeCost(AESMode m, SecurityPolicy policy, size_t payloadLenH
     float fEnergy  = toaNorm;
 
     float gamma = _gammaEffective();
-    return _w.alpha * fLink + _w.beta * fLatency + gamma * fEnergy;
+
+    // Security-utility term: fLink/fLatency/fEnergy only ever penalize GCM
+    // (extra perAuth in fLink, larger frame -> higher toaNorm), so under the
+    // original 3-term cost, GCM could never win over CTR regardless of link
+    // quality. This credits GCM for the fraction of packets it actually
+    // authenticates successfully; the credit is maximal at good SNR and
+    // vanishes as perAuth rises, matching the documented Region 1/2/3
+    // behaviour (paper Sec. 6.6).
+    float fSec = (m == AESMode::GCM) ? -(1.0f - _ls.perAuth) : 0.0f;
+
+    // Nonce-reuse-risk term: a retransmission of the same sequence number
+    // reuses the same CTR nonce (sequence counter + device ID, Sec. 4.2) --
+    // catastrophic CTR keystream reuse -- while CBC's fresh random IV per
+    // attempt has no such exposure. This penalizes CTR by its expected
+    // extra transmission attempts, so the risk (and CBC's viability) grows
+    // with radio-level PER, matching paper Fig. 7's long-range CBC region.
+    float fReuse = (m == AESMode::CTR) ? (_retryFactor(_ls.perRadio) - 1.0f) : 0.0f;
+
+    return _w.alpha * fLink + _w.beta * fLatency + gamma * fEnergy
+         + _w.delta * fSec + _w.epsilon * fReuse;
 }
 
 bool LoRa32T::isModeAllowed(AESMode frameMode, SecurityPolicy policy) const

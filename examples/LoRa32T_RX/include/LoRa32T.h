@@ -52,6 +52,12 @@ struct CostWeights {
     float beta;    // Latency weight      (default 0.30)
     float gamma0;  // Base energy weight  (default 0.10)
     float kappa;   // Battery sensitivity (default 0.25)
+    float delta;   // Security-utility weight, rewards GCM for packets it
+                    // actually authenticates successfully (default 0.15)
+    float epsilon; // CTR nonce-reuse-risk weight -- a retransmitted packet
+                    // reuses the same sequence-counter-derived CTR nonce,
+                    // so this penalizes CTR by its expected extra attempts
+                    // (default 0.25)
 };
 
 struct StabilityConfig {
@@ -75,7 +81,7 @@ class LoRa32T {
 public:
     LoRa32T();
     void begin(const uint8_t key[16],
-               CostWeights    weights  = {0.55f, 0.30f, 0.10f, 0.25f},
+               CostWeights    weights  = {0.55f, 0.30f, 0.10f, 0.25f, 0.15f, 0.25f},
                StabilityConfig stab    = {0.05f, 20, 0.3f},
                RadioConfig     radio   = {7, 125000.0f, 5, true, false, 8});
 
