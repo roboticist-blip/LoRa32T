@@ -116,6 +116,10 @@ public:
     // running GCM cannot be fed a CTR/CBC frame silently relabelled GCM,
     // and vice versa.
     bool isModeAllowed(AESMode frameMode, SecurityPolicy policy) const;
+    // Conditional: CBC remains eligible at all SNR as a non-authenticated
+    // fallback; only CTR is restricted, and only above 0 dB, so that a
+    // Conditional deployment never lands on the weakest-overhead mode
+    // while an authenticated alternative (GCM) is still viable.
 
     bool encrypt(const uint8_t* plain, size_t plainLen,
                  uint32_t seqNum, CryptoFrame& frame);
