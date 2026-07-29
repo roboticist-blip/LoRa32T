@@ -1,6 +1,6 @@
 {
   "name": "LoRa32T",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deterministic cross-layer adaptive AES mode selection (GCM/CBC/CTR) for ESP32-based LoRa telemetry.",
   "keywords": [
     "lora",
