@@ -54,9 +54,7 @@ energy efficiency. A relative-hysteresis threshold and a minimum dwell time
 (both configurable) gate every mode switch, so a mode change only happens
 when it's worth the switching cost and the link has actually settled.
 
-The receiver measures SNR, packet error rate, and GCM authentication
-failures, and reports them back in a signed 3-byte-equivalent ACK. It plays
-no part in choosing the mode.
+The receiver calculates SNR, packet error rate, and GCM authentication failure counts, which are sent back in an ACK that includes an authenticated HMAC-SHA256-truncation tag along with a monotonic counter to protect against forgeries or replays of measurements (see Security Properties).
 
 ## Installation
 
@@ -138,7 +136,7 @@ See `examples/LoRa32T_TX` and `examples/LoRa32T_RX` for complete, wiring-annotat
 | Policy | Behavior |
 |---|---|
 | `BestEffort` | Full cost-driven selection; all three modes eligible |
-| `Conditional` | GCM preferred; CTR only permitted once SNR ≥ 0 dB |
+| `Conditional` | GCM preferred; CBC always eligible as fallback; CTR only permitted once SNR ≥ 0 dB |
 | `Mandatory` | GCM required at all times, regardless of cost or channel |
 
 Policy is enforced on **both** ends: the transmitter won't select a
